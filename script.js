@@ -1,7 +1,12 @@
-let userIP = "0.0.0.0";
-
-fetch('https://api.ipify.org?format=json')
-  .then(res => res.json())
-  .then(data => userIP = data.ip)
-  .catch(() => {});
-console.log(userIP);
+userIP = '';
+getIP();
+async function getIP() {
+  const response = await fetch('https://api.ipify.org?format=json');
+  const data = await response.json();
+  userIP = data.ip;
+  console.log(userIP);
+  doneIP(userIP);
+}
+function doneIP(x){
+  document.getElementById("userIP_text").textContent=userIP
+}
