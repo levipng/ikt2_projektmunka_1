@@ -1,5 +1,17 @@
-body{
+body {
     font-family: monospace;
-    background-color: grey;
-    color: white;
+    background-color: #1a1a2e;  /* sötétkék */
+    color: #eaeaea;
+}
+
+.hatter {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(0, 255, 200, 0.4);
+    border-radius: 10px;
+}
+
+.hatter2{
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 10px;
+    border: 3px solid black;
 }
