@@ -13,7 +13,19 @@ async function getIP() {
   doneIP(userIP);
 }
 function doneIP(x){
-  document.getElementById("userIP_text").textContent=userIP
+  document.getElementById("userIP_text").textContent=userIP;
 }
 
+function passwdBitChange(bit){
+  document.getElementById("passwdBitText").textContent=(`A jelszó bit erőssége: ${bit}`);
+}
 
+document.getElementById('passwdText').addEventListener('input', function(e) {
+    passwdBitChange(passwdBitValue(e.target.value));
+});
+
+function passwdBitValue(passwd){
+  const passwdEredmeny = zxcvbn(passwd);
+  const bitErosseg = Math.round(Math.log2(passwdEredmeny.guesses) * 10) / 10;
+  return bitErosseg;
+}
