@@ -8,18 +8,21 @@ async function getIP() {
   const data = await response.json();
   userIP = data.ip;
   console.log(userIP);
-  doneIP(userIP);
+  if (document.getElementById("userIP_text")){
+    document.getElementById("userIP_text").textContent=userIP;
+  }
 }
 
-function doneIP(x){
-  document.getElementById("userIP_text").textContent=userIP;
-}
 
 //PASSWD ################
 
-document.getElementById('passwdText').addEventListener('input', function(e) {
-    passwdBitChange(passwdBitValue(e.target.value));
-});
+const passwdInput = document.getElementById('passwdText');
+if (passwdInput){
+  passwdInput.addEventListener('input', function(e) {
+      passwdBitChange(passwdBitValue(e.target.value));
+  });
+}
+
 
 function passwdBitValue(passwd){
   const passwdEredmeny = zxcvbn(passwd);
