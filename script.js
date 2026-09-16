@@ -35,6 +35,7 @@ function passwdBitChange(bit){
 //LIGHT MODE ################
 
 function lightmode(){
-  document.body.classList.toggle("light-mode");
-  document.getElementsByClassName("").toggle("light-mode");
+  document.body.classList.toggle("body_light");
+  document.getElementsByClassName("hatter").toggle("hatter_light");
+  document.getElementsByClassName("leiras_hatter").toggle("leiras_hatter_light");
 }
