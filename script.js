@@ -13,8 +13,7 @@ async function getIP() {
   }
 }
 
-
-//PASSWD ################
+//PASSWORD ################
 
 const passwdInput = document.getElementById('passwdText');
 if (passwdInput){
@@ -22,7 +21,6 @@ if (passwdInput){
       passwdBitChange(passwdBitValue(e.target.value));
   });
 }
-
 
 function passwdBitValue(passwd){
   const passwdEredmeny = zxcvbn(passwd);
@@ -34,3 +32,9 @@ function passwdBitChange(bit){
   document.getElementById("passwdBitText").textContent=(`A jelszó bit erőssége: ${bit}`);
 }
 
+//LIGHT MODE ################
+
+function lightmode(){
+  document.body.classList.toggle("light-mode");
+  document.getElementsByClassName("").toggle("light-mode");
+}
