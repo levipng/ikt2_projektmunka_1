@@ -34,18 +34,6 @@ function passwdBitChange(bit){
 
 //LIGHT MODE ################
 
-function lightmode(){
-  document.body.classList.toggle("body_light");
-  toggleAll(".hatter", "hatter_light");
-  toggleAll(".leiras_hatter", "leiras_hatter_light");
-}
-
-// 1. LÉPÉS: Létrehozok egy függvényt, ami két dolgot vár:
-//    - sel = egy CSS szelektor szövegként, pl. ".hatter"
-//    - cls = egy osztálynév szövegként, pl. "hatter_light"
-function toggleAll(be, ki) {
-  const elemek = document.querySelectorAll(be);
-  for (let i = 0; i < elemek.length; i++) {
-    elemek[i].classList.toggle(ki);
-  }
+function lightmode() {
+    document.body.classList.toggle("light");
 }
