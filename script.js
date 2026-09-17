@@ -35,5 +35,16 @@ function passwdBitChange(bit){
 //LIGHT MODE ################
 
 function lightmode() {
-    document.body.classList.toggle("light");
+  const body = document.body;
+  const nav = document.getElementsByClassName("navbar")[0];
+  body.classList.toggle("light");
+  if (body.classList.contains("light")){
+    nav.classList.remove("bg-dark");
+    nav.classList.add("bg-light");
+    nav.setAttribute("data-bs-theme", "light");
+  }else{
+    nav.classList.remove("bg-light");
+    nav.classList.add("bg-dark");
+    nav.setAttribute("data-bs-theme", "dark");
+  }
 }

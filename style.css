@@ -1,3 +1,7 @@
+body.light #foNav.bg-light {
+    background-color: #d8d8ee !important;
+}
+
 body {
     font-family: monospace;
     background-color: #1a1a2e; 
