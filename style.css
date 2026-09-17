@@ -18,13 +18,17 @@ body {
 }
 
 .body_light {
-
+    background-color: #9a9adb; 
+    color: #251f41;
 }
 
 .hatter_light {
-
+    background-color: rgba(255, 255, 255, 0.928);
+    border: 1px solid rgba(222, 237, 234, 0.4);
+    box-shadow: 10px 5px 5px rgba(208, 216, 221, 0.987);
 }
 
 .leiras_hatter_light {
-
+    background-color: rgb(235, 234, 234);
+    border: 1px solid rgba(223, 232, 230, 0.903);
 }
