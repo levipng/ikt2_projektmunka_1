@@ -38,14 +38,18 @@ function passwdBitChange(bit) {
 function lightmode() {
   const body = document.body;
   const nav = document.getElementsByClassName("navbar")[0];
+  const light_img = document.getElementById("light_img");
   body.classList.toggle("light");
+
   if (body.classList.contains("light")) {
     nav.classList.remove("bg-dark");
     nav.classList.add("bg-light");
     nav.setAttribute("data-bs-theme", "light");
+    light_img.src = light_img.src.replace(/moon\.svg$/, 'sun.svg');
   } else {
     nav.classList.remove("bg-light");
     nav.classList.add("bg-dark");
     nav.setAttribute("data-bs-theme", "dark");
+    light_img.src = light_img.src.replace(/sun\.svg$/, 'moon.svg');
   }
 }
