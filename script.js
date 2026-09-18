@@ -16,6 +16,7 @@ async function getIP() {
 //PASSWORD ################
 
 const passwdInput = document.getElementById('passwdText');
+passwdInput.value=null;
 if (passwdInput) {
   function handlePasswdInput() {
     passwdBitChange(passwdBitValue(passwdInput.value));
@@ -37,26 +38,32 @@ function passwdBitChange(bit) {
 
 function lightmode() {
   const body = document.body;
-  const nav = document.getElementsByClassName("navbar")[0];
+  const nav = document.getElementsByClassName("navbar");
   const listg = document.getElementsByClassName("list-group");
   const light_img = document.getElementById("light_img");
   body.classList.toggle("light");
+  body.classList.contains("light") ? dark() : light();
 
-  if (body.classList.contains("light")) {
-    nav.classList.remove("bg-dark");
-    nav.classList.add("bg-light");
-    nav.setAttribute("data-bs-theme", "light");
-    for (i=0;i<listg.length;i++){
-      listg[i].setAttribute("data-bs-theme","light");
+  function light(){
+    for (i=0;i<nav.length;i++){
+      nav[i].classList.remove("bg-light");
+      nav[i].classList.add("bg-dark");
+      nav[i].setAttribute("data-bs-theme","dark");
     }
-    light_img.src = light_img.src.replace(/moon\.svg$/, 'sun.svg');
-  } else {
-    nav.classList.remove("bg-light");
-    nav.classList.add("bg-dark");
-    nav.setAttribute("data-bs-theme", "dark");
     for (i=0;i<listg.length;i++){
       listg[i].setAttribute("data-bs-theme","dark");
     }
     light_img.src = light_img.src.replace(/sun\.svg$/, 'moon.svg');
+  }
+  function dark(){
+    for (i=0;i<nav.length;i++){
+      nav[i].classList.remove("bg-dark");
+      nav[i].classList.add("bg-light");
+      nav[i].setAttribute("data-bs-theme","light");
+    }
+    for (i=0;i<listg.length;i++){
+      listg[i].setAttribute("data-bs-theme","light");
+    }
+    light_img.src = light_img.src.replace(/moon\.svg$/, 'sun.svg');
   }
 }
