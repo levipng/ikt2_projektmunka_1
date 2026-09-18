@@ -30,7 +30,7 @@ function passwdBitValue(passwd) {
 }
 
 function passwdBitChange(bit) {
-  document.getElementById("passwdBitText").textContent = (`A jelszó bit erőssége: ${bit}`);
+  document.getElementById("passwdBitText").textContent = (`A jelszó erőssége: ${bit} bit.`);
 }
 
 //LIGHT MODE ################
@@ -38,6 +38,7 @@ function passwdBitChange(bit) {
 function lightmode() {
   const body = document.body;
   const nav = document.getElementsByClassName("navbar")[0];
+  const listg = document.getElementsByClassName("list-group");
   const light_img = document.getElementById("light_img");
   body.classList.toggle("light");
 
@@ -45,11 +46,17 @@ function lightmode() {
     nav.classList.remove("bg-dark");
     nav.classList.add("bg-light");
     nav.setAttribute("data-bs-theme", "light");
+    for (i=0;i<listg.length;i++){
+      listg[i].setAttribute("data-bs-theme","light");
+    }
     light_img.src = light_img.src.replace(/moon\.svg$/, 'sun.svg');
   } else {
     nav.classList.remove("bg-light");
     nav.classList.add("bg-dark");
     nav.setAttribute("data-bs-theme", "dark");
+    for (i=0;i<listg.length;i++){
+      listg[i].setAttribute("data-bs-theme","dark");
+    }
     light_img.src = light_img.src.replace(/sun\.svg$/, 'moon.svg');
   }
 }
