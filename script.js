@@ -40,7 +40,8 @@ function lightmode() {
   const body = document.body;
   const nav = document.getElementsByClassName("navbar");
   const listg = document.getElementsByClassName("list-group");
-  const light_img = document.getElementById("light_img");
+  const light_button_img = document.getElementById("light_img");
+
   body.classList.toggle("light");
   body.classList.contains("light") ? dark() : light();
 
@@ -53,8 +54,9 @@ function lightmode() {
     for (i=0;i<listg.length;i++){
       listg[i].setAttribute("data-bs-theme","dark");
     }
-    light_img.src = light_img.src.replace(/sun\.svg$/, 'moon.svg');
+    light_button_img.src = light_button_img.src.replace(/sun\.svg$/, 'moon.svg');
   }
+  
   function dark(){
     for (i=0;i<nav.length;i++){
       nav[i].classList.remove("bg-dark");
@@ -64,6 +66,6 @@ function lightmode() {
     for (i=0;i<listg.length;i++){
       listg[i].setAttribute("data-bs-theme","light");
     }
-    light_img.src = light_img.src.replace(/moon\.svg$/, 'sun.svg');
+    light_button_img.src = light_button_img.src.replace(/moon\.svg$/, 'sun.svg');
   }
 }
