@@ -9,12 +9,26 @@ body {
     border: 1px solid rgba(0, 255, 200, 0.4);
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgba(34, 156, 226, 0.264);
+    transform: scale(1);
+    transition: transform 1s ease, background-color 1s ease;
+}
+
+.hatter:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0)
 }
 
 .leiras_hatter {
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 255, 200, 0.25);
     border-radius: 10px;
+    transform: scale(1);
+    transition: transform 1s ease, background-color 1s ease;
+}
+
+.leiras_hatter:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0)
 }
 
 body.light {
@@ -31,4 +45,20 @@ body.light .hatter {
 body.light .leiras_hatter {
     background-color: rgb(235, 234, 234);
     border: 1px solid rgba(223, 232, 230, 0.903);
+}
+
+.btn:hover {
+    animation: sinvalto 0.4s ease forwards;
+}
+
+@keyframes sinvalto {
+    0% {
+        transform: scale(1);
+        background: #2563eb;
+    }
+
+    100% {
+        transform: scale(1.08);
+        background: #1d4ed8;
+    }
 }
