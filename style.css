@@ -10,11 +10,11 @@ body {
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgba(34, 156, 226, 0.264);
     transform: scale(1);
-    transition: transform 1s ease, background-color 1s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .hatter:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: rgba(0, 0, 0)
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .leiras_hatter:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: rgba(0, 0, 0)
 }
 
