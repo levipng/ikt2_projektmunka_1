@@ -1,370 +1,461 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet" href="../dependencies/bootstrap.min.css">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="../dependencies/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
     <title>Biztonság Az Első - Adatvédelem</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Fontos a biztonság!</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Lorem, ipsum.</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">lorem</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">lorem</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">lorem</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item px-2">
-                        <button class="btn-dark" onclick="lightmode()">
-                            <img src="../images/moon.svg" width="30rem" alt="">
-                        </button>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fontos a biztonság!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Lorem, ipsum.</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">lorem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">lorem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">lorem</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item px-2">
+              <button class="btn-dark" onclick="lightmode()">
+                <img src="../images/moon.svg" width="30rem" alt="" />
+              </button>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <main class="container-xl">
+      <!-- Hero szekció -->
+      <section>
+        <div class="text-center">
+          <h1 class="mt-5 px-3 py-2 hatter d-inline-block">Adatvédelem</h1>
+          <br />
+          <div class="my-1 px-3 py-3 hatter d-inline-block">
+            <h4>
+              Tartsd kézben személyes adataid sorsát, és döntsd el, ki mit
+              láthat rólad online.
+            </h4>
+          </div>
+        </div>
+      </section>
 
-        <!-- Hero szekció -->
-        <section>
-            <div class="text-center">
-                <h1 class="mt-5 px-3 py-2 hatter d-inline-block">
-                    Adatvédelem
-                </h1>
-                <br>
-                <div class="my-1 px-3 py-3 hatter d-inline-block">
-                    <h4>
-                        Tartsd kézben személyes adataid sorsát, és döntsd el, ki mit láthat rólad online.
-                    </h4>
-                </div>
+      <!-- Folyamatjelző sáv -->
+      <section class="mt-5">
+        <div class="row g-4 text-center">
+          <div class="col-12 col-md-3">
+            <div class="hatter p-3 h-100">
+              <h2 class="display-6">1.</h2>
+              <h5>Térképezd fel</h5>
+              <p class="mb-0">Nézd meg, hol és milyen adataid vannak rólad.</p>
             </div>
-        </section>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="hatter p-3 h-100">
+              <h2 class="display-6">2.</h2>
+              <h5>Szigorítsd a beállításokat</h5>
+              <p class="mb-0">Zárd le a profiljaidat, ahol csak lehet.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="hatter p-3 h-100">
+              <h2 class="display-6">3.</h2>
+              <h5>Gondold át, mit osztasz meg</h5>
+              <p class="mb-0">Ne posztolj feleslegesen személyes adatot.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="hatter p-3 h-100">
+              <h2 class="display-6">4.</h2>
+              <h5>Ellenőrizd rendszeresen</h5>
+              <p class="mb-0">Régi fiókok, hírlevelek, ismeretlen appok.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Folyamatjelző sáv -->
-        <section class="mt-5">
-            <div class="row g-4 text-center">
-                <div class="col-12 col-md-3">
-                    <div class="hatter p-3 h-100">
-                        <h2 class="display-6">1.</h2>
-                        <h5>Térképezd fel</h5>
-                        <p class="mb-0">Nézd meg, hol és milyen adataid vannak rólad.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="hatter p-3 h-100">
-                        <h2 class="display-6">2.</h2>
-                        <h5>Szigorítsd a beállításokat</h5>
-                        <p class="mb-0">Zárd le a profiljaidat, ahol csak lehet.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="hatter p-3 h-100">
-                        <h2 class="display-6">3.</h2>
-                        <h5>Gondold át, mit osztasz meg</h5>
-                        <p class="mb-0">Ne posztolj feleslegesen személyes adatot.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3">
-                    <div class="hatter p-3 h-100">
-                        <h2 class="display-6">4.</h2>
-                        <h5>Ellenőrizd rendszeresen</h5>
-                        <p class="mb-0">Régi fiókok, hírlevelek, ismeretlen appok.</p>
-                    </div>
-                </div>
+      <!-- 1. téma: aszimmetrikus -->
+      <section class="mt-5">
+        <div class="row g-4 mt-4 align-items-stretch">
+          <div class="col-12 col-md-7">
+            <div class="text-center leiras_hatter p-4 h-100">
+              <h2 class="hatter d-inline-block px-3 py-2">
+                Mit árulsz el magadról?
+              </h2>
+              <p class="mt-3">
+                Amikor internetezel, folyamatosan adatokat hagy magad után:
+                keresések, kattintások, helymeghatározás, e-mail cím,
+                telefonszám, ismerősök listája. Ezek egy része önmagában
+                ártalmatlannak tűnik, de a támadók és az adatgyűjtő cégek
+                ezekből pontos képet tudnak alkotni rólad.
+              </p>
+              <p>
+                Az adatvédelem nem arról szól, hogy elrejtőzz az internet elől –
+                hanem hogy te döntsd el, ki, mit, miért és meddig tudhat rólad.
+                Ez tudatos hozzáállás kérdése, és néhány egyszerű lépéssel
+                jelentősen csökkentheted a kockázatokat.
+              </p>
+              <p>
+                Kezdd azzal, hogy felmérled: milyen fiókjaid vannak, hol adtad
+                meg a telefonszámodat vagy a címedet, és melyik szolgáltatás fér
+                hozzá a névjegyzékedhez, a helyadataidhoz vagy a kamerádhoz. Az
+                eredmény gyakran meglepő.
+              </p>
             </div>
-        </section>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="leiras_hatter p-4 h-100">
+              <h4 class="hatter d-inline-block px-3 py-2">
+                Tipikus adatszivárgási pontok
+              </h4>
+              <ul class="list-group mt-4" data-bs-theme="dark">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Mindenhol ugyanaz az e-mail cím
+                  <span class="badge text-bg-warning rounded-pill">!</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Nyilvános közösségi profil
+                  <span class="badge text-bg-warning rounded-pill">!</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  El nem olvasott adatvédelmi szabályzat
+                  <span class="badge text-bg-warning rounded-pill">!</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Minden engedélyt megadó appok
+                  <span class="badge text-bg-warning rounded-pill">!</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Évek óta nem használt fiókok
+                  <span class="badge text-bg-warning rounded-pill">!</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  Nyilvános Wi‑Fin végzett bejelentkezés
+                  <span class="badge text-bg-warning rounded-pill">!</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- 1. téma: aszimmetrikus -->
-        <section class="mt-5">
-            <div class="row g-4 mt-4 align-items-stretch">
-                <div class="col-12 col-md-7">
-                    <div class="text-center leiras_hatter p-4 h-100">
-                        <h2 class="hatter d-inline-block px-3 py-2">
-                            Mit árulsz el magadról?
-                        </h2>
-                        <p class="mt-3">
-                            Amikor internetezel, folyamatosan adatokat hagy magad után: keresések, kattintások,
-                            helymeghatározás, e-mail cím, telefonszám, ismerősök listája. Ezek egy része önmagában
-                            ártalmatlannak tűnik, de a támadók és az adatgyűjtő cégek ezekből pontos képet tudnak
-                            alkotni rólad.
-                        </p>
-                        <p>
-                            Az adatvédelem nem arról szól, hogy elrejtőzz az internet elől – hanem hogy te döntsd el,
-                            ki, mit, miért és meddig tudhat rólad. Ez tudatos hozzáállás kérdése, és néhány egyszerű
-                            lépéssel jelentősen csökkentheted a kockázatokat.
-                        </p>
-                        <p>
-                            Kezdd azzal, hogy felmérled: milyen fiókjaid vannak, hol adtad meg a telefonszámodat vagy
-                            a címedet, és melyik szolgáltatás fér hozzá a névjegyzékedhez, a helyadataidhoz vagy a
-                            kamerádhoz. Az eredmény gyakran meglepő.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5">
-                    <div class="leiras_hatter p-4 h-100">
-                        <h4 class="hatter d-inline-block px-3 py-2">
-                            Tipikus adatszivárgási pontok
-                        </h4>
-                        <ul class="list-group mt-4" data-bs-theme="dark">
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Mindenhol ugyanaz az e-mail cím
-                                <span class="badge text-bg-warning rounded-pill">!</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Nyilvános közösségi profil
-                                <span class="badge text-bg-warning rounded-pill">!</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                El nem olvasott adatvédelmi szabályzat
-                                <span class="badge text-bg-warning rounded-pill">!</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Minden engedélyt megadó appok
-                                <span class="badge text-bg-warning rounded-pill">!</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Évek óta nem használt fiókok
-                                <span class="badge text-bg-warning rounded-pill">!</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Nyilvános Wi‑Fin végzett bejelentkezés
-                                <span class="badge text-bg-warning rounded-pill">!</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <!-- 2. téma: fordított aszimmetria -->
+      <section class="mt-5">
+        <div class="row g-4 mt-4 align-items-stretch">
+          <div class="col-12 col-md-5 order-2 order-md-1">
+            <div class="leiras_hatter p-4 h-100">
+              <h4 class="hatter d-inline-block px-3 py-2">
+                Hol érdemes szigorítani?
+              </h4>
+              <ol
+                class="list-group list-group-numbered mt-4"
+                data-bs-theme="dark"
+              >
+                <li class="list-group-item">
+                  <div class="fw-bold">Közösségi média</div>
+                  Állítsd a profilodat „csak ismerősöknek", és tiltsd le a
+                  névjegyzék-feltöltést.
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Böngésző</div>
+                  Használj privát módot, harmadik féltől származó sütik tiltását
+                  és követésvédelemet.
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Telefon</div>
+                  Nézd át az appok engedélyeit: kamera, mikrofon, hely,
+                  névjegyzék.
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">E-mail</div>
+                  Kapcsold ki a képek automatikus betöltését, és használj alias
+                  címeket.
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Keresők</div>
+                  Használj adatvédelem-központú keresőt vagy privát módot.
+                </li>
+              </ol>
             </div>
-        </section>
+          </div>
+          <div class="col-12 col-md-7 order-1 order-md-2">
+            <div class="text-center leiras_hatter p-4 h-100">
+              <h2 class="hatter d-inline-block px-3 py-2">
+                Adatvédelmi beállítások
+              </h2>
+              <p class="mt-3">
+                A legtöbb szolgáltatás alapértelmezésben a lehető legtöbb adatot
+                gyűjti rólad, és minél többet oszt meg a profilodról. Ez nem
+                véletlen: az üzleti modelljük az adatalapú hirdetésre épül.
+                Neked viszont jogod van szigorúbb beállításokat választani.
+              </p>
+              <p>
+                A beállítások átnézése elsőre időigényesnek tűnhet, de egyszer
+                kell végigcsinálni, utána csak alkalmanként frissíteni. A
+                legfontosabb területek: ki láthatja a posztjaidat, ki kereshet
+                rá az e-mail címedre vagy telefonszámodra, és milyen adatokat
+                osztasz meg harmadik felekkel.
+              </p>
+              <p>
+                Külön figyelj azokra az appokra és bővítményekre, amelyek
+                hozzáférnek a névjegyzékedhez, a helyadataidhoz vagy a
+                mikrofonom. Ha egy egyszerű játék kéri a névjegyzékedet, az
+                komoly figyelmeztető jel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- 2. téma: fordított aszimmetria -->
-        <section class="mt-5">
-            <div class="row g-4 mt-4 align-items-stretch">
-                <div class="col-12 col-md-5 order-2 order-md-1">
-                    <div class="leiras_hatter p-4 h-100">
-                        <h4 class="hatter d-inline-block px-3 py-2">
-                            Hol érdemes szigorítani?
-                        </h4>
-                        <ol class="list-group list-group-numbered mt-4" data-bs-theme="dark">
-                            <li class="list-group-item">
-                                <div class="fw-bold">Közösségi média</div>
-                                Állítsd a profilodat „csak ismerősöknek", és tiltsd le a névjegyzék-feltöltést.
-                            </li>
-                            <li class="list-group-item">
-                                <div class="fw-bold">Böngésző</div>
-                                Használj privát módot, harmadik féltől származó sütik tiltását és követésvédelemet.
-                            </li>
-                            <li class="list-group-item">
-                                <div class="fw-bold">Telefon</div>
-                                Nézd át az appok engedélyeit: kamera, mikrofon, hely, névjegyzék.
-                            </li>
-                            <li class="list-group-item">
-                                <div class="fw-bold">E-mail</div>
-                                Kapcsold ki a képek automatikus betöltését, és használj alias címeket.
-                            </li>
-                            <li class="list-group-item">
-                                <div class="fw-bold">Keresők</div>
-                                Használj adatvédelem-központú keresőt vagy privát módot.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="col-12 col-md-7 order-1 order-md-2">
-                    <div class="text-center leiras_hatter p-4 h-100">
-                        <h2 class="hatter d-inline-block px-3 py-2">
-                            Adatvédelmi beállítások
-                        </h2>
-                        <p class="mt-3">
-                            A legtöbb szolgáltatás alapértelmezésben a lehető legtöbb adatot gyűjti rólad, és minél
-                            többet oszt meg a profilodról. Ez nem véletlen: az üzleti modelljük az adatalapú
-                            hirdetésre épül. Neked viszont jogod van szigorúbb beállításokat választani.
-                        </p>
-                        <p>
-                            A beállítások átnézése elsőre időigényesnek tűnhet, de egyszer kell végigcsinálni, utána
-                            csak alkalmanként frissíteni. A legfontosabb területek: ki láthatja a posztjaidat, ki
-                            kereshet rá az e-mail címedre vagy telefonszámodra, és milyen adatokat osztasz meg
-                            harmadik felekkel.
-                        </p>
-                        <p>
-                            Külön figyelj azokra az appokra és bővítményekre, amelyek hozzáférnek a névjegyzékedhez,
-                            a helyadataidhoz vagy a mikrofonom. Ha egy egyszerű játék kéri a névjegyzékedet, az komoly
-                            figyelmeztető jel.
-                        </p>
-                    </div>
-                </div>
+      <!-- 3. téma: két oszlop, középen cím -->
+      <section class="mt-5">
+        <div class="text-center">
+          <h2 class="hatter d-inline-block px-3 py-2">
+            Fiókjaid és adataid hosszú távú védelme
+          </h2>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-12 col-md-6">
+            <div class="text-center leiras_hatter p-4 h-100">
+              <h4 class="hatter d-inline-block px-3 py-2">Amit tehetsz</h4>
+              <p class="mt-3">
+                Az adatvédelem nem egyszeri feladat, hanem folyamatos
+                odafigyelés. Minél kevesebb helyen vagy jelen, és minél kevesebb
+                adatot adsz meg rólad, annál kisebb a kockázat, hogy visszaélnek
+                velük.
+              </p>
+              <ul class="list-group text-start" data-bs-theme="dark">
+                <li class="list-group-item">
+                  Használj alias e-mail címeket különböző szolgáltatásokhoz
+                </li>
+                <li class="list-group-item">
+                  Törölj régi, nem használt fiókokat
+                </li>
+                <li class="list-group-item">
+                  Iratkozz le a felesleges hírlevelekről
+                </li>
+                <li class="list-group-item">
+                  Rendszeresen nézd át az appok engedélyeit
+                </li>
+                <li class="list-group-item">
+                  Használj jelszókezelőt és kétlépcsős azonosítást
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="text-center leiras_hatter p-4 h-100">
+              <h4 class="hatter d-inline-block px-3 py-2">
+                Jogaid és eszközeid
+              </h4>
+              <p class="mt-3">
+                Az Európai Unióban a GDPR széles jogokat biztosít számodra a
+                személyes adataiddal kapcsolatban. Érdemes élni velük: nem csak
+                védelem, hanem eszköz is a kezedben.
+              </p>
+              <ul class="list-group text-start" data-bs-theme="dark">
+                <li class="list-group-item">
+                  Hozzáférési jog – mit tárolnak rólad?
+                </li>
+                <li class="list-group-item">
+                  Helyesbítési jog – javíttasd a hibás adatokat
+                </li>
+                <li class="list-group-item">
+                  Törlési jog – „elfeledtetéshez való jog"
+                </li>
+                <li class="list-group-item">
+                  Adathordozhatóság – vidd magaddal az adataidat
+                </li>
+                <li class="list-group-item">
+                  Tiltakozási jog – kérheted a profilalkotás mellőzését
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- 3. téma: két oszlop, középen cím -->
-        <section class="mt-5">
-            <div class="text-center">
-                <h2 class="hatter d-inline-block px-3 py-2">
-                    Fiókjaid és adataid hosszú távú védelme
-                </h2>
+      <!-- GYIK accordion -->
+      <section class="mt-5">
+        <div class="text-center">
+          <h2 class="hatter d-inline-block px-3 py-2">Gyakori kérdések</h2>
+        </div>
+        <div class="accordion mt-4" id="gyikAccordion" data-bs-theme="dark">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#gyik1"
+              >
+                Hogyan tudom megnézni, milyen adataim vannak rólam online?
+              </button>
+            </h2>
+            <div
+              id="gyik1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#gyikAccordion"
+            >
+              <div class="accordion-body">
+                Keress rá a saját nevedre és e-mail címedre különböző
+                keresőkben, nézd meg a közösségi profiljaid láthatóságát, és
+                ellenőrizd a böngésződ mentett adatait. Az adatszivárgásokat
+                pedig olyan oldalakon tudod megnézni, mint a Have I Been Pwned.
+              </div>
             </div>
-            <div class="row g-4 mt-4">
-                <div class="col-12 col-md-6">
-                    <div class="text-center leiras_hatter p-4 h-100">
-                        <h4 class="hatter d-inline-block px-3 py-2">
-                            Amit tehetsz
-                        </h4>
-                        <p class="mt-3">
-                            Az adatvédelem nem egyszeri feladat, hanem folyamatos odafigyelés. Minél kevesebb helyen
-                            vagy jelen, és minél kevesebb adatot adsz meg rólad, annál kisebb a kockázat, hogy
-                            visszaélnek velük.
-                        </p>
-                        <ul class="list-group text-start" data-bs-theme="dark">
-                            <li class="list-group-item">Használj alias e-mail címeket különböző szolgáltatásokhoz</li>
-                            <li class="list-group-item">Törölj régi, nem használt fiókokat</li>
-                            <li class="list-group-item">Iratkozz le a felesleges hírlevelekről</li>
-                            <li class="list-group-item">Rendszeresen nézd át az appok engedélyeit</li>
-                            <li class="list-group-item">Használj jelszókezelőt és kétlépcsős azonosítást</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="text-center leiras_hatter p-4 h-100">
-                        <h4 class="hatter d-inline-block px-3 py-2">
-                            Jogaid és eszközeid
-                        </h4>
-                        <p class="mt-3">
-                            Az Európai Unióban a GDPR széles jogokat biztosít számodra a személyes adataiddal
-                            kapcsolatban. Érdemes élni velük: nem csak védelem, hanem eszköz is a kezedben.
-                        </p>
-                        <ul class="list-group text-start" data-bs-theme="dark">
-                            <li class="list-group-item">Hozzáférési jog – mit tárolnak rólad?</li>
-                            <li class="list-group-item">Helyesbítési jog – javíttasd a hibás adatokat</li>
-                            <li class="list-group-item">Törlési jog – „elfeledtetéshez való jog"</li>
-                            <li class="list-group-item">Adathordozhatóság – vidd magaddal az adataidat</li>
-                            <li class="list-group-item">Tiltakozási jog – kérheted a profilalkotás mellőzését</li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#gyik2"
+              >
+                Mit tehetek, ha egy szolgáltatás nem törli az adataimat?
+              </button>
+            </h2>
+            <div
+              id="gyik2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#gyikAccordion"
+            >
+              <div class="accordion-body">
+                Írj hivatalos törlési kérelmet az adatvédelmi tisztviselőnek. Ha
+                nem válaszolnak 30 napon belül, fordulhatsz a Nemzeti
+                Adatvédelmi és Információszabadság Hatósághoz (NAIH).
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#gyik3"
+              >
+                Elég egy erős jelszó az adataim védelméhez?
+              </button>
+            </h2>
+            <div
+              id="gyik3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#gyikAccordion"
+            >
+              <div class="accordion-body">
+                Nem. A jelszó csak az egyik réteg. Emellé kell a kétlépcsős
+                azonosítás, a szigorú adatvédelmi beállítások, a tudatos
+                megosztás és a rendszeres ellenőrzés is.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- GYIK accordion -->
-        <section class="mt-5">
-            <div class="text-center">
-                <h2 class="hatter d-inline-block px-3 py-2">
-                    Gyakori kérdések
-                </h2>
-            </div>
-            <div class="accordion mt-4" id="gyikAccordion" data-bs-theme="dark">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#gyik1">
-                            Hogyan tudom megnézni, milyen adataim vannak rólam online?
-                        </button>
-                    </h2>
-                    <div id="gyik1" class="accordion-collapse collapse" data-bs-parent="#gyikAccordion">
-                        <div class="accordion-body">
-                            Keress rá a saját nevedre és e-mail címedre különböző keresőkben, nézd meg a közösségi
-                            profiljaid láthatóságát, és ellenőrizd a böngésződ mentett adatait. Az adatszivárgásokat
-                            pedig olyan oldalakon tudod megnézni, mint a Have I Been Pwned.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#gyik2">
-                            Mit tehetek, ha egy szolgáltatás nem törli az adataimat?
-                        </button>
-                    </h2>
-                    <div id="gyik2" class="accordion-collapse collapse" data-bs-parent="#gyikAccordion">
-                        <div class="accordion-body">
-                            Írj hivatalos törlési kérelmet az adatvédelmi tisztviselőnek. Ha nem válaszolnak 30 napon
-                            belül, fordulhatsz a Nemzeti Adatvédelmi és Információszabadság Hatósághoz (NAIH).
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#gyik3">
-                        Elég egy erős jelszó az adataim védelméhez?
-                    </button>
-                    </h2>
-                    <div id="gyik3" class="accordion-collapse collapse" data-bs-parent="#gyikAccordion">
-                        <div class="accordion-body">
-                            Nem. A jelszó csak az egyik réteg. Emellé kell a kétlépcsős azonosítás, a szigorú
-                            adatvédelmi beállítások, a tudatos megosztás és a rendszeres ellenőrzés is.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Záró: hogyan védd magad -->
-        <section class="mt-5 mb-5">
-            <div class="text-center">
-                <h1 class="mt-5 px-3 py-2 hatter d-inline-block">
-                    Hogyan védd magad?
-                </h1>
-                <ol class="list-group list-group-numbered text-center" data-bs-theme="dark">
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Térképezd fel, hol vagy jelen</div>
-                            Készíts listát a fiókjaidról, és nézd meg, hol adtad meg a személyes adataidat.
-                        </div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Szigorítsd a beállításokat</div>
-                            Zárd le a profiljaidat, tiltsd a követést, és csak a szükséges engedélyeket add meg.
-                        </div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Használj alias e-mail címeket</div>
-                            Külön címet minden szolgáltatáshoz – így tudni fogod, ki adta el az adataidat.
-                        </div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Törölj, ami már nem kell</div>
-                            Régi fiókok, hírlevelek, appok – minden egyes törölt kapcsolat csökkenti a kockázatot.
-                        </div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Élj a jogaiddal</div>
-                            A GDPR alapján kérhetsz másolatot, helyesbítést vagy törlést – bátran használd ezeket.
-                        </div>
-                    </li>
-                </ol>
-            </div>
-        </section>
-
+      <!-- Záró: hogyan védd magad -->
+      <section class="mt-5 mb-5">
+        <div class="text-center">
+          <h1 class="mt-5 px-3 py-2 hatter d-inline-block">
+            Hogyan védd magad?
+          </h1>
+          <ol
+            class="list-group list-group-numbered text-center"
+            data-bs-theme="dark"
+          >
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Térképezd fel, hol vagy jelen</div>
+                Készíts listát a fiókjaidról, és nézd meg, hol adtad meg a
+                személyes adataidat.
+              </div>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Szigorítsd a beállításokat</div>
+                Zárd le a profiljaidat, tiltsd a követést, és csak a szükséges
+                engedélyeket add meg.
+              </div>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Használj alias e-mail címeket</div>
+                Külön címet minden szolgáltatáshoz – így tudni fogod, ki adta el
+                az adataidat.
+              </div>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Törölj, ami már nem kell</div>
+                Régi fiókok, hírlevelek, appok – minden egyes törölt kapcsolat
+                csökkenti a kockázatot.
+              </div>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+            >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Élj a jogaiddal</div>
+                A GDPR alapján kérhetsz másolatot, helyesbítést vagy törlést –
+                bátran használd ezeket.
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
     </main>
-    <footer>
-    </footer>
-</body>
-<script src="../dependencies/bootstrap.bundle.min.js"></script>
-<script src="../dependencies/zxcvbn.js"></script>
-<script src="../script.js"></script>
-
+    <footer></footer>
+  </body>
+  <script src="../dependencies/bootstrap.bundle.min.js"></script>
+  <script src="../dependencies/zxcvbn.js"></script>
+  <script src="../script.js"></script>
 </html>
