@@ -18,21 +18,23 @@ async function getIP() {
 const passwdInput = document.getElementById('passwdText');
 passwdInput.value=null;
 if (passwdInput) {
-  function passwdEvent(){
+  function passwdEvent() {
     handlePasswdInput();
     passwdStrengthCheck();
   }
-  function handlePasswdInput() {
-    passwdBitChange(passwdBitValue(passwdInput.value));
-  }
-  function passwdStrengthCheck(){
-    if(passwdInput.value.length>=16){
-      document.getElementById("passwdt0").textContent="✔ Legalább 16 karakter";
-    }else{
-      document.getElementById("passwdt0").textContent="✘ Legalább 16 karakter";
-    }
+}
+function handlePasswdInput() {
+  passwdBitChange(passwdBitValue(passwdInput.value));
+}
+function passwdStrengthCheck() {
+  if (passwdInput.value.length >= 16) {
+    document.getElementById("passwdt0").textContent = "✔ Legalább 16 karakter";
+  } else {
+    document.getElementById("passwdt0").textContent = "✘ Legalább 16 karakter";
   }
 }
+passwdInput.addEventListener('input',  passwdEvent);
+
 
 function passwdBitValue(passwd) {
   const passwdEredmeny = zxcvbn(passwd);
@@ -42,9 +44,6 @@ function passwdBitValue(passwd) {
 
 function passwdBitChange(bit) {
   document.getElementById("passwdBitText").textContent = (`A jelszó erőssége: ${bit} bit.`);
-}
-
-function passwdStrengthCheck(){
 }
 
 //LIGHT MODE ################
@@ -58,26 +57,26 @@ function lightmode() {
   body.classList.toggle("light");
   body.classList.contains("light") ? dark() : light();
 
-  function light(){
-    for (i=0;i<nav.length;i++){
+  function light() {
+    for (i = 0; i < nav.length; i++) {
       nav[i].classList.remove("bg-light");
       nav[i].classList.add("bg-dark");
-      nav[i].setAttribute("data-bs-theme","dark");
+      nav[i].setAttribute("data-bs-theme", "dark");
     }
-    for (i=0;i<listg.length;i++){
-      listg[i].setAttribute("data-bs-theme","dark");
+    for (i = 0; i < listg.length; i++) {
+      listg[i].setAttribute("data-bs-theme", "dark");
     }
     light_button_img.src = light_button_img.src.replace(/sun\.svg$/, 'moon.svg');
   }
-  
-  function dark(){
-    for (i=0;i<nav.length;i++){
+
+  function dark() {
+    for (i = 0; i < nav.length; i++) {
       nav[i].classList.remove("bg-dark");
       nav[i].classList.add("bg-light");
-      nav[i].setAttribute("data-bs-theme","light");
+      nav[i].setAttribute("data-bs-theme", "light");
     }
-    for (i=0;i<listg.length;i++){
-      listg[i].setAttribute("data-bs-theme","light");
+    for (i = 0; i < listg.length; i++) {
+      listg[i].setAttribute("data-bs-theme", "light");
     }
     light_button_img.src = light_button_img.src.replace(/moon\.svg$/, 'sun.svg');
   }
