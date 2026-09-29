@@ -16,12 +16,13 @@ async function getIP() {
 //PASSWORD ################
 
 const passwdInput = document.getElementById('passwdText');
-passwdInput.value=null;
 if (passwdInput) {
+  passwdInput.value=null;
   function passwdEvent() {
     handlePasswdInput();
     passwdStrengthCheck();
   }
+  passwdInput.addEventListener('input',  passwdEvent);
 }
 function handlePasswdInput() {
   passwdBitChange(passwdBitValue(passwdInput.value));
@@ -33,7 +34,6 @@ function passwdStrengthCheck() {
     document.getElementById("passwdt0").textContent = "✘ Legalább 16 karakter";
   }
 }
-passwdInput.addEventListener('input',  passwdEvent);
 
 
 function passwdBitValue(passwd) {
