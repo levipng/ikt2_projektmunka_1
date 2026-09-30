@@ -18,7 +18,7 @@ async function getIP() {
 const passwdInput = document.getElementById('passwdText');
 if (passwdInput) {
   passwdInput.value=null;
-  function passwdEvent() {
+  function passwdEvent(){
     handlePasswdInput();
     passwdStrengthCheck();
   }
@@ -32,6 +32,24 @@ function passwdStrengthCheck() {
     document.getElementById("passwdt0").textContent = "✔ Legalább 16 karakter";
   } else {
     document.getElementById("passwdt0").textContent = "✘ Legalább 16 karakter";
+  }
+
+  const passwdSequenceCheck = zxcvbn(passwdInput.value)
+  let passwdSequence=false;
+  if (passwdSequenceCheck.sequence.length){
+    passwdSequence=false;
+    for(let k=0;k<passwdSequenceCheck.sequence.length; k++){
+      if (passwdSequenceCheck.sequence[k].pattern=="sequence"){
+        passwdSequence=true;
+        break;
+      }
+    }
+  }
+  if (!passwdSequence && passwdInput.value.length!=0){
+    document.getElementById("passwdt2").textContent = "✔ Nincs mintázat (123456, qwertz, jelszo123)";
+  }
+  else{
+    document.getElementById("passwdt2").textContent = "✘ Nincs mintázat (123456, qwerty, jelszo123)";
   }
 }
 
