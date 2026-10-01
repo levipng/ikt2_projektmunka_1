@@ -72,6 +72,7 @@ function lightmode() {
   const listg = document.getElementsByClassName("list-group");
   const light_button_img = document.getElementById("light_img");
   const footer = document.getElementsByClassName("footer");
+  const btn = document.getElementsByClassName("btn");
 
   body.classList.toggle("light");
   body.classList.contains("light") ? dark() : light();
@@ -86,10 +87,14 @@ function lightmode() {
       listg[i].setAttribute("data-bs-theme", "dark");
     }
     light_button_img.src = light_button_img.src.replace(/sun\.svg$/, 'moon.svg');
-    for (i = 0; i < nav.length; i++) {
+    for (i = 0; i < footer.length; i++) {
       footer[i].classList.remove("bg-light");
       footer[i].classList.add("bg-dark");
       footer[i].setAttribute("data-bs-theme", "dark");
+    }
+    for (i = 0; i < btn.length; i++) {
+      btn[i].classList.remove("btn-light");
+      btn[i].classList.add("btn-dark");
     }
   }
 
@@ -104,10 +109,14 @@ function lightmode() {
     }
     light_button_img.src = light_button_img.src.replace(/moon\.svg$/, 'sun.svg');
 
-    for (i = 0; i < nav.length; i++) {
+    for (i = 0; i < footer.length; i++) {
       footer[i].classList.remove("bg-dark");
       footer[i].classList.add("bg-light");
       footer[i].setAttribute("data-bs-theme", "light");
+    }
+    for (i = 0; i < btn.length; i++) {
+      btn[i].classList.remove("btn-dark");
+      btn[i].classList.add("btn-light");
     }
   }
 }
