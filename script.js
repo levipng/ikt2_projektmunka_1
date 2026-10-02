@@ -120,3 +120,10 @@ function lightmode() {
     }
   }
 }
+
+//QUIZE_self_rating ################
+
+function quizeselfrating(){
+  const slider_input = document.getElementById("selfrating").value
+  console.log(slider_input)
+}
