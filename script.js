@@ -122,8 +122,10 @@ function lightmode() {
 }
 
 //QUIZE_self_rating ################
-
+const slider_input = document.getElementById("selfrating")
+if (slider_input){
+  slider_input.addEventListener('click', quizeselfrating)
+}
 function quizeselfrating(){
-  const slider_input = document.getElementById("selfrating").value
   console.log(slider_input)
 }
