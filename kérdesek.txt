@@ -1,0 +1,179 @@
+1. Alapvető jelszóhigiénia
+
+1. Miért veszélyes, ha ugyanazt a jelszót használod több oldalon?
+A) Mert lassabb lesz a bejelentkezés.
+B) Mert egy oldal adatszivárgása esetén a támadó más oldalakon is be tud lépni ugyanazzal a jelszóval.
+C) Mert a böngésző nem tudja megjegyezni.
+D) Mert a jelszó automatikusan lejár.
+Helyes: B
+
+2. Mit jelent a „master password” egy jelszókezelőben?
+A) A legrégebbi jelszavad.
+B) Az a jelszó, amellyel a jelszókezelő adatbázisát megnyitod.
+C) Az a jelszó, amelyet a szolgáltató eltárol a szerverén.
+D) A második faktor kódja.
+Helyes: B
+
+3. Mit tegyél, ha kiderül, hogy egy jelszavad kiszivárgott?
+A) Semmit, mert az már nem használható.
+B) Azonnal változtasd meg az érintett oldalon, és ahol ugyanazt használtad, ott is.
+C) Csak írd fel egy papírra.
+D) Töröld a böngésző előzményeit.
+Helyes: B
+
+4. Hogyan készíts biztonsági mentést a jelszókezelő adatbázisáról úgy, hogy az ne növelje jelentősen a biztonsági kockázatot?
+A) Kiküldöd e-mailben magadnak titkosítás nélkül.
+B) Kiírod egy nyilvános felhőbe szöveges fájlként.
+C) Titkosított, jelszóval védett exportot készítesz, és biztonságos helyen tárolod.
+D) Megosztod a barátaiddal, hogy ők is megőrizzék.
+Helyes: C
+
+5. Mi a teendő, ha elveszíted a master passwordet, és milyen előzetes intézkedésekkel lehet erre felkészülni?
+A) Nincs megoldás, de előre beállítható vészhelyzeti hozzáférés vagy helyreállítási kód.
+B) Újra kell telepíteni a gépet.
+C) A szolgáltató minden esetben visszaadja e-mailben.
+D) A master passwordet sosem lehet elveszíteni.
+Helyes: A
+
+6. Miért fontos, hogy a master password se legyen máshol használatos, és milyen támadások ellen véd ez?
+A) Mert így gyorsabb a bejelentkezés.
+B) Mert ha kiszivárog máshonnan, a támadó nem tudja megnyitni vele a jelszókezelőt.
+C) Mert a szolgáltató megköveteli.
+D) Mert így nem kell kétfaktoros hitelesítés.
+Helyes: B
+2. Jelszókezelők összehasonlítása és használata
+
+7. Mi a fő különbség az online és a lokális jelszókezelő között?
+A) Az online mindig ingyenes, a lokális mindig fizetős.
+B) Az online általában szinkronizál a felhőn keresztül, a lokális csak a helyi eszközön tárol.
+C) A lokális csak mobiltelefonon működik.
+D) Az online nem használ titkosítást.
+Helyes: B
+
+8. Milyen esetben választanál inkább lokális, és milyen esetben online jelszókezelőt?
+A) Lokálisat, ha több eszközön akarsz szinkronizálni; online-t, ha csak egy gépen.
+B) Online-t, ha nincs internet; lokálisat, ha mindenhol el akarod érni.
+C) Lokálisat, ha maximális kontrollt és adatvédelmet akarsz; online-t, ha kényelmes többeszközös használatot.
+D) Mindig online-t, mert a lokális elavult.
+Helyes: C
+
+9. Milyen kockázatot jelent az online szinkronizáció, és hogyan csökkenthető ez a kockázat?
+A) Nincs kockázata.
+B) A felhőben tárolt titkosított adatbázis jelszava gyengébb lehet; erős master password és 2FA csökkenti.
+C) Csak annyi, hogy lassabb.
+D) A szinkronizáció miatt nem kell jelszókezelő.
+Helyes: B
+
+10. Mit jelent a „zero-knowledge” titkosítás egy online jelszókezelőnél, és miért fontos ez?
+A) A szolgáltató minden jelszót lát, hogy segíthessen.
+B) A szolgáltató sem tudja visszafejteni az adataidat, mert a titkosítás a te oldaladon történik.
+C) A jelszavak nyílt szövegben tárolódnak.
+D) Csak a fizetős verzióban van titkosítás.
+Helyes: B
+
+11. Milyen szempontokat érdemes megvizsgálni, amikor jelszókezelőt választasz?
+A) Csak a színt és a logót.
+B) Titkosítás, nyílt forráskód, szinkronizáció, 2FA, exportálhatóság, megbízhatóság.
+C) Csak azt, hogy ingyenes-e.
+D) Csak azt, hogy hány karaktert enged.
+Helyes: B
+
+12. Hogyan lehet biztonságosan megosztani egy jelszót másokkal anélkül, hogy kiadnád a master passwordet?
+A) E-mailben sima szövegként.
+B) A jelszókezelő beépített megosztási funkciójával, időkorláttal vagy egyszeri hozzáféréssel.
+C) Facebookon privát üzenetben.
+D) Úgy, hogy odaadod a master passwordet.
+Helyes: B
+3. Jelszóerősség, generálás és entrópia
+
+13. Milyen tulajdonságai vannak egy erős jelszónak?
+A) Rövid, könnyen megjegyezhető, például „123456”.
+B) Hosszú, véletlenszerű, kis- és nagybetűt, számot, szimbólumot tartalmaz.
+C) Csak kisbetűkből áll.
+D) A születési dátumod.
+Helyes: B
+
+14. Milyen mintázatokat kerülj el a jelszavakban?
+A) Véletlenszerű karaktereket.
+B) Hosszú jelszófrázisokat.
+C) Szótári szavakat, billentyűzet-mintázatokat, személyes adatokat.
+D) Idegen nyelvű szavakat.
+Helyes: C
+
+15. Miért lehet erősebb egy hosszú jelszófrázis, mint egy rövid, bonyolult jelszó?
+A) Mert több karakter, így nagyobb az entrópia, és könnyebb megjegyezni.
+B) Mert rövidebb.
+C) Mert csak kisbetűket tartalmaz.
+D) Mert minden oldalon ugyanaz.
+Helyes: A
+
+16. Mit jelent a jelszó entrópiája, és hogyan kapcsolódik a feltörési időhöz?
+A) A jelszó hosszát karakterben.
+B) A jelszóban rejlő bizonytalanság mértékét bitben; nagyobb entrópia → nehezebb feltörni.
+C) A jelszó színét.
+D) A jelszó korát.
+Helyes: B
+
+17. Miért nem elég, ha egy jelszó tartalmaz nagybetűt, számot és szimbólumot?
+A) Mert ezeket a rendszerek nem engedik.
+B) Mert ha rövid és kiszámítható mintát követ, akkor is könnyen feltörhető.
+C) Mert a szimbólumok lassítják a bejelentkezést.
+D) Mert a számok nem biztonságosak.
+Helyes: B
+
+18. Hogyan becsüli meg egy jelszóerősség-mérő a jelszó feltörhetőségét?
+A) Csak a hosszát nézi.
+B) Mintázatokat, szótári szavakat, ismétlődéseket és entrópiát elemez.
+C) A felhasználó nevét nézi.
+D) Véletlenszerűen tippel.
+Helyes: B
+
+19. Milyen minimális jelszóhosszt érdemes használni a fontos fiókoknál?
+A) 4 karakter.
+B) 6 karakter.
+C) Legalább 12–16 karaktert, vagy ennél hosszabb jelszófrázist.
+D) 8 karakter elég mindenhol.
+Helyes: C
+4. Támadások, 2FA és védekezés
+
+20. Mit jelent az adathalászat, és hogyan ismerhető fel?
+A) Valaki ellopja a gépedet.
+B) Hamis e-mail vagy weboldal, amely megtévesztéssel próbálja megszerezni az adataidat; gyanús linkek, sürgetés, hibás címek.
+C) A jelszavad automatikus frissítése.
+D) A böngésző gyorsítótára.
+Helyes: B
+
+21. Miért fontos a kétfaktoros hitelesítés akkor is, ha erős a jelszavad?
+A) Mert így nem kell jelszó.
+B) Mert ha a jelszó kiszivárog, a második faktor nélkül a támadó nem tud belépni.
+C) Mert gyorsabb.
+D) Mert a jelszóerősség-mérő ezt kéri.
+Helyes: B
+
+22. Milyen 2FA-módszerek biztonságosabbak az SMS-alapú kódnál, és miért?
+A) Semmilyen, az SMS a legjobb.
+B) Hitelesítő alkalmazás, hardverkulcs; mert az SMS-t könnyebb elfogni SIM-csere vagy hálózati támadás miatt.
+C) E-mailes kód, mert mindig elérhető.
+D) Biztonsági kérdés, mert személyes.
+Helyes: B
+
+23. Miért veszélyesek a biztonsági kérdések, és hogyan lehet őket biztonságosabban kezelni?
+A) Mert mindenki tudja a választ; véletlen, generált válaszokat érdemes megjegyezni a jelszókezelőben.
+B) Mert túl hosszúak.
+C) Mert csak angolul működnek.
+D) Mert nincs rájuk szükség.
+Helyes: A
+
+24. Hogyan ellenőrizheted, hogy egy jelszavad szerepel-e ismert adatszivárgásban?
+A) Megkérdezed a barátaidat.
+B) Beírod egy erre szakosodott oldalra, például Have I Been Pwned, vagy a jelszókezelő beépített ellenőrzésével.
+C) Újra telepíted a böngészőt.
+D) Törlöd a cookie-kat.
+Helyes: B
+
+25. Milyen támadási módok ellen véd a jelszókezelő, és mi ellen nem nyújt védelmet?
+A) Véd az adathalászat ellen is, mert mindent automatikusan kitölt.
+B) Véd a gyenge és újrafelhasznált jelszavak ellen; de nem véd, ha a master passwordet adathalászattal megszerzik, vagy ha a gépeden kártevő van.
+C) Minden támadás ellen véd.
+D) Semmilyen támadás ellen nem véd.
+Helyes: B
