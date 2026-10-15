@@ -1,0 +1,179 @@
+1. Adathalászat (phishing)
+
+1. (Könnyű) Mi a leggyakoribb kiberbűnözési támadástípus az oldal szerint?
+A) Zsarolóvírus.
+B) Adathalászat (phishing).
+C) DDoS-támadás.
+D) Identitáslopás.
+Helyes: B
+
+2. (Könnyű) Miért olyan elterjedt az adathalászat?
+A) Mert nagyon drága.
+B) Mert olcsó, gyors és sok embert ér el egyszerre.
+C) Mert csak cégeket céloz.
+D) Mert nehéz kivédeni.
+Helyes: B
+
+3. (Könnyű) Melyik jel utalhat adathalász e-mailre?
+A) Hivatalos logó és hibátlan helyesírás.
+B) Sürgető hangnem, helyesírási hibák, ismeretlen feladó.
+C) A feladó a bankod valódi címe.
+D) A levél tárgya „Számlaértesítő”.
+Helyes: B
+
+4. (Nehéz) Mit próbál elérni a támadó az adathalász üzenetben?
+A) Hogy letöltsd a csatolmányt.
+B) Hogy kattints egy linkre, és megadd a belépési vagy bankkártyaadataidat.
+C) Hogy válaszolj a levélre.
+D) Hogy továbbítsd az üzenetet.
+Helyes: B
+
+5. (Nehéz) Miért veszélyes, ha egy adathalász e-mailben sürgetnek?
+A) Mert gyorsabb a válasz.
+B) Mert a sürgetés megakadályozza, hogy átgondold a levél valódiságát.
+C) Mert a rendszer törli a lassú válaszokat.
+D) Mert a sürgetés mindig hivatalos.
+Helyes: B
+
+6. (Nehéz) Mit tegyél, ha egy e-mailben jelszót vagy bankkártyaadatot kérnek?
+A) Add meg, ha a feladó ismerős.
+B) Soha ne add meg, és jelentsd az üzenetet adathalászatként.
+C) Küldd el, de utána változtasd meg a jelszót.
+D) Válaszolj, hogy előbb ellenőrzöd a fiókodat.
+Helyes: B
+2. Zsarolóvírus (ransomware)
+
+7. (Könnyű) Mit tesz a zsarolóvírus a fájljaiddal?
+A) Törli az összes fájlt.
+B) Titkosítja őket, majd váltságdíjat követel a visszafejtésért.
+C) Lemásolja őket egy külső szerverre.
+D) Lassítja a számítógépet.
+Helyes: B
+
+8. (Könnyű) Hogyan terjed leggyakrabban a zsarolóvírus?
+A) Nyilvános Wi-Fi-n keresztül.
+B) E-mailes csatolmányból vagy hamis frissítésből.
+C) USB-pendrive-ról.
+D) Fórumokról letöltött fájlokból.
+Helyes: B
+
+9. (Könnyű) Mi a legjobb védekezés a zsarolóvírus ellen?
+A) Vírusirtó telepítése.
+B) Rendszeres, offline biztonsági mentés olyan helyre, amit a vírus nem ér el.
+C) A gép kikapcsolása.
+D) A fájlok jelszavas védése.
+Helyes: B
+
+10. (Nehéz) Miért fontos, hogy a biztonsági mentés offline legyen?
+A) Mert így gyorsabb a visszaállítás.
+B) Mert a zsarolóvírus így nem tudja titkosítani a mentést is.
+C) Mert az online mentés mindig lassabb.
+D) Mert az offline mentés olcsóbb.
+Helyes: B
+
+11. (Nehéz) Melyik védekezési lépés segít a zsarolóvírus ellen az oldal szerint?
+A) A gyanús csatolmányok megnyitása.
+B) Naprakész operációs rendszer és vírusirtó, valamint a gyanús csatolmányok mellőzése.
+C) A fontos fájlok egy mappában tárolása.
+D) A fájlok átnevezése.
+Helyes: B
+
+12. (Nehéz) Miért érdemes a fontos fájlokat elkülönítetten tárolni?
+A) Mert így kevesebb helyet foglalnak.
+B) Mert így a zsarolóvírus kevésbé fér hozzá a kritikus adatokhoz.
+C) Mert így gyorsabb a keresés.
+D) Mert a vírusirtó így hatékonyabb.
+Helyes: B
+3. Identitáslopás
+
+13. (Könnyű) Mit tesz a támadó identitáslopás esetén?
+A) Ellopja a számítógépedet.
+B) A személyes adataidat használja fel, hogy a te nevedben hitelt vegyen fel vagy szerződést kössön.
+C) Feltöri a Wi-Fi hálózatodat.
+D) Vírust telepít a telefonodra.
+Helyes: B
+
+14. (Könnyű) Milyen adatokat használ fel a támadó identitáslopáshoz?
+A) Csak a jelszavaidat.
+B) Nevet, címet, születési dátumot, adószámot, banki adatokat.
+C) Csak az e-mail címedet.
+D) Csak a telefonszámodat.
+Helyes: B
+
+15. (Könnyű) Mikor szerez tudomást az áldozat gyakran az identitáslopásról?
+A) Azonnal.
+B) Gyakran csak hónapokkal később.
+C) Egy héten belül.
+D) Soha.
+Helyes: B
+
+16. (Nehéz) Hogyan előzheted meg az identitáslopást az oldal szerint?
+A) Mindenhol ugyanazt a jelszót használod.
+B) Minimalizálod a személyes adatok megosztását, biztonságosan tárolod és semmisíted meg az iratokat, figyeled a bankszámla- és hitelértesítőket.
+C) Gyakran változtatod a jelszavaidat.
+D) Törlöd a böngésző előzményeit.
+Helyes: B
+
+17. (Nehéz) Miért érdemes rendszeresen ellenőrizni a KHR / hiteljelentést?
+A) Mert így jobb hitelképességet kapsz.
+B) Mert így időben észreveheted, ha valaki a te nevedben hitelt vett fel.
+C) Mert a bankok ezt kérik.
+D) Mert így csökken a kamat.
+Helyes: B
+
+18. (Nehéz) Mit jelent az, hogy az áldozat gyakran csak hónapokkal később szerez tudomást az identitáslopásról?
+A) A támadó nagyon lassan dolgozik.
+B) Az áldozat nem figyeli a bankszámla- és hitelértesítőket.
+C) A bankok nem értesítik az áldozatot.
+D) Az identitáslopás nem hagy nyomot.
+Helyes: B
+4. DDoS – túlterheléses támadás
+
+19. (Könnyű) Mit jelent a DDoS-támadás?
+A) A támadó ellopja az adataidat.
+B) A támadó rengeteg gépről egyszerre kéréseket küld egy szervernek, amíg az összeomlik vagy elérhetetlenné válik.
+C) A támadó titkosítja a fájljaidat.
+D) A támadó a te nevedben vásárol.
+Helyes: B
+
+20. (Könnyű) Kit érint általában a DDoS-támadás?
+A) Csak egyéni felhasználókat.
+B) Általában cégeket, szolgáltatásokat, de kisebb oldalak is célponttá válhatnak.
+C) Csak kormányzati oldalakat.
+D) Csak bankokat.
+Helyes: B
+
+21. (Könnyű) Mennyire tudnak védekezni az egyéni felhasználók a DDoS ellen?
+A) Teljes mértékben.
+B) Korlátozottan – a szolgáltatón múlik.
+C) Egyáltalán nem.
+D) Csak vírusirtóval.
+Helyes: B
+
+22. (Nehéz) Mit tehetsz DDoS ellen az oldal szerint?
+A) Kikapcsolod a routert.
+B) Szolgáltatásvédelmet kínáló tárhelyet választasz, erős jelszavakat használsz, rendszeresen mentesz, és támadás esetén azonnal kapcsolatba lépsz a szolgáltatóval.
+C) Törlöd a fiókodat.
+D) Vírusirtót telepítesz.
+Helyes: B
+
+23. (Nehéz) Miért van szükség erős jelszavakra a DDoS elleni védekezésben?
+A) Mert a gyenge jelszó lassítja a szervert.
+B) Mert a támadó így nem tudja átvenni az admin felület irányítását.
+C) Mert a szolgáltató ezt írja elő.
+D) Mert a gyenge jelszó vírust telepít.
+Helyes: B
+
+24. (Nehéz) Miért fontos a támadás utáni azonnali kapcsolat a szolgáltatóval?
+A) Mert így visszakapod a pénzed.
+B) Mert a szolgáltató segíthet elhárítani a támadást és helyreállítani a szolgáltatást.
+C) Mert a szolgáltató felelős a támadásért.
+D) Mert így letiltják a támadó IP-címét.
+Helyes: B
+
+25. (Nehéz) Melyik állítás igaz a DDoS-támadásra?
+A) Csak nagy cégeket érint.
+B) Kisebb oldalak is célponttá válhatnak.
+C) Mindig váltságdíjat követelnek.
+D) Személyes adatokat lopnak el.
+Helyes: B

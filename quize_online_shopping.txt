@@ -1,0 +1,179 @@
+1. Webáruház kiválasztása és ellenőrzése
+
+1. (Könnyű) Mi az online vásárlás első és legfontosabb lépése az oldal szerint?
+A) A termék kiválasztása.
+B) Olyan webáruház választása, amely megbízható és biztonságos.
+C) A fizetési mód kiválasztása.
+D) A rendelés leadása.
+Helyes: B
+
+2. (Könnyű) Melyik gyanús jel utalhat csaló webáruházra?
+A) Az oldalon van ügyfélszolgálat.
+B) Hihetetlenül alacsony árak.
+C) Az oldal HTTPS-en működik.
+D) Az oldalon vannak független vélemények.
+Helyes: B
+
+3. (Könnyű) Mit érdemes tenni, mielőtt bármit is rendelnél egy webáruházból?
+A) Azonnal fizetni.
+B) Egy kis időt szánni az oldal ellenőrzésére.
+C) Csak a közösségi médián elérhető oldalt megbízhatónak tekinteni.
+D) Előre utalni a pénzt.
+Helyes: B
+
+4. (Nehéz) Miért gyanús, ha egy webáruház csak közösségi médián érhető el?
+A) Mert a közösségi média mindig megbízható.
+B) Mert hiányozhat a valós ügyfélszolgálat és elérhetőség.
+C) Mert a közösségi média lassú.
+D) Mert a közösségi média nem támogatja a fizetést.
+Helyes: B
+
+5. (Nehéz) Miért nem szabad megbízni abban a webáruházban, amelyik sürget?
+A) Mert lassú a szállítás.
+B) Mert a sürgetés megakadályozza, hogy átgondold a vásárlást.
+C) Mert a sürgetés mindig hivatalos.
+D) Mert a sürgetés csak a nagy cégekre jellemző.
+Helyes: B
+
+6. (Nehéz) Mit jelent az, hogy egy megbízható webáruház „soha nem kér szokatlan fizetési módokat”?
+A) Csak bankkártyát fogad el.
+B) Nem kér például ajándékutalványos fizetést vagy előre utalást ismeretlen módokon.
+C) Nem fogad el PayPal-t.
+D) Nem fogad el utánvétet.
+Helyes: B
+
+7. (Nehéz) Milyen ellenőrzéseket érdemes elvégezni egy webáruháznál?
+A) Csak az árát nézd meg.
+B) Van-e valós ügyfélszolgálat, milyen fizetési módokat kínálnak, és keress független véleményeket.
+C) Csak a weboldal kinézetét nézd meg.
+D) Csak azt nézd meg, van-e közösségi média oldala.
+Helyes: B
+2. Fizetési módok és biztonságos fizetés
+
+8. (Könnyű) Melyik fizetési mód biztonságos az oldal szerint?
+A) Előre utalás ismeretlen eladónak.
+B) Bankkártya 3D Secure megerősítéssel.
+C) Ajándékutalvány.
+D) Készpénz postai úton.
+Helyes: B
+
+9. (Könnyű) Mit jelent a virtuális bankkártya?
+A) Egy fizikai kártya, amit a bank ad.
+B) Egyszeri használatra generált kártyaszám.
+C) Egy bankkártya, amit csak online lehet használni.
+D) Egy bankkártya, amit csak külföldön lehet használni.
+Helyes: B
+
+10. (Könnyű) Mit kell ellenőrizni fizetés előtt a böngésző címsorában?
+A) A weboldal nevét.
+B) A lakat ikont és a https:// előtagot.
+C) A weboldal logóját.
+D) A weboldal színét.
+Helyes: B
+
+11. (Nehéz) Miért biztonságosabb a PayPal, mint a bankkártyaadatok megadása minden boltnak?
+A) Mert olcsóbb.
+B) Mert nem kell megadnod a kártyaadataidat a boltnak.
+C) Mert gyorsabb.
+D) Mert mindenhol elfogadják.
+Helyes: B
+
+12. (Nehéz) Miért veszélyes az előre történő banki átutalás ismeretlen eladóknál?
+A) Mert lassú.
+B) Mert ilyenkor nincs visszatérítési lehetőség, ha a termék nem érkezik meg.
+C) Mert drága.
+D) Mert a bankok nem szeretik.
+Helyes: B
+
+13. (Nehéz) Miért kérnek szinte mindig csalók ajándékutalványos fizetést?
+A) Mert az ajándékutalvány olcsó.
+B) Mert a csalók így nehezen követhető módon jutnak pénzhez.
+C) Mert az ajándékutalvány mindenhol elfogadható.
+D) Mert az ajándékutalvány biztonságos.
+Helyes: B
+
+14. (Nehéz) Mit jelent az, hogy ha a lakat ikon és a https:// hiányzik, „a forgalom titkosítatlan lehet”?
+A) A weboldal lassú.
+B) A kártyaadataidat nem szabad megadni, mert illetéktelenek hozzáférhetnek.
+C) A weboldal nem működik.
+D) A weboldal nem fogad el bankkártyát.
+Helyes: B
+3. Adataid és fiókod védelme
+
+15. (Könnyű) Mit érdemes tenni a jelszavakkal a különböző webáruházakban?
+A) Mindenhol ugyanazt a jelszót használni.
+B) Minden boltban egyedi jelszót használni.
+C) Csak a banknál használni jelszót.
+D) Nem használni jelszót.
+Helyes: B
+
+16. (Könnyű) Mit érdemes bekapcsolni a fiókjaidnál?
+A) Az automatikus bejelentkezést.
+B) A kétlépcsős azonosítást.
+C) A jelszó mentését a böngészőben.
+D) Az e-mail értesítéseket.
+Helyes: B
+
+17. (Könnyű) Mit ne tegyél a kártyaadataiddal a webáruházaknál?
+A) Add meg fizetéskor.
+B) Ne mentsd el őket.
+C) Ellenőrizd a banki értesítéseket.
+D) Használj virtuális kártyát.
+Helyes: B
+
+18. (Nehéz) Miért érdemes elolvasni az adatvédelmi szabályzatot?
+A) Mert unalmas.
+B) Mert megtudhatod, hogyan kezelik a személyes adataidat.
+C) Mert kötelező.
+D) Mert mindenhol ugyanaz.
+Helyes: B
+
+19. (Nehéz) Milyen adatok kerülhetnek veszélybe az online vásárlás során?
+A) Csak a jelszavad.
+B) E-mail cím, szállítási cím, telefonszám és jelszó.
+C) Csak a bankkártyaadat.
+D) Csak a neved.
+Helyes: B
+
+20. (Nehéz) Mit tegyél, ha adathalász e-mailt kapsz a vásárlásoddal kapcsolatban?
+A) Nyisd meg, és kattints a linkre.
+B) Ne nyisd meg, és jelentsd.
+C) Válaszolj rá.
+D) Továbbítsd másoknak.
+Helyes: B
+4. Vásárlás utáni teendők és gyakori kérdések
+
+21. (Könnyű) Mit érdemes tenni a vásárlás után?
+A) Törölni a rendelésszámot.
+B) Figyelni a visszaigazoló e-maileket és a banki értesítéseket.
+C) Azonnal újabb rendelést leadni.
+D) Nem foglalkozni vele.
+Helyes: B
+
+22. (Könnyű) Mit érdemes megőrizni a vásárlás után?
+A) Csak az e-mailt.
+B) A számlát és a rendelésszámot.
+C) Csak a csomagolást.
+D) Semmit.
+Helyes: B
+
+23. (Nehéz) Mit tegyél, ha késik a csomag?
+A) Azonnal a bankot hívd.
+B) Először a boltnál reklamálj.
+C) Írj a közösségi médiában.
+D) Rendelj újat.
+Helyes: B
+
+24. (Nehéz) Mit tehetsz, ha a termék nem érkezik meg, és az eladó nem válaszol?
+A) Semmit, nincs mit tenni.
+B) Jelezd a bankodnak, és kártyás fizetés esetén kérhetsz chargeback-et (visszatérítést).
+C) Újra rendelj ugyanattól az eladótól.
+D) Írj egy rossz értékelést, és békülj meg vele.
+Helyes: B
+
+25. (Nehéz) Mit jelent a chargeback?
+A) Egy fizetési mód.
+B) Visszatérítési kérelem kártyás fizetés esetén.
+C) Egy banki díj.
+D) Egy szállítási mód.
+Helyes: B

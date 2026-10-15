@@ -1,0 +1,179 @@
+1. Otthoni hálózat védelme
+
+1. (Könnyű) Milyen hosszúságú Wi-Fi jelszót érdemes használni az oldal szerint?
+A) Legalább 6 karaktert.
+B) Legalább 8 karaktert.
+C) Legalább 12–16 karaktert, kis- és nagybetűvel, számmal és speciális karakterrel.
+D) Legalább 20 karaktert, csak számokból.
+Helyes: C
+
+2. (Könnyű) Melyik titkosítási módot érdemes választani a router beállításainál?
+A) WEP-et, mert széles körben támogatott.
+B) Nyílt hálózatot, mert egyszerű.
+C) WPA2-t vagy WPA3-at, mert ezek a legbiztonságosabbak.
+D) Bármelyiket, mert mindegyik egyformán biztonságos.
+Helyes: C
+
+3. (Könnyű) Mit kell tenni a router admin jelszavával?
+A) Megtartani az alapértelmezettet, mert kényelmes.
+B) Mindenképp lecserélni, mert a támadók ismerik az alapértelmezett adatokat.
+C) Kiírni a router oldalára, hogy ne felejtsd el.
+D) Megosztani a családtagokkal.
+Helyes: B
+
+4. (Könnyű) Miért érdemes kikapcsolni a WPS funkciót?
+A) Mert lassítja a hálózatot.
+B) Mert nem működik új eszközökkel.
+C) Mert kényelmes, de biztonsági rést jelenthet.
+D) Mert csak régi routereken működik.
+Helyes: C
+
+5. (Nehéz) Miért fontos rendszeresen frissíteni a router firmware-jét?
+A) Mert különben lejár a garancia.
+B) Mert a gyártó rendszeresen ad ki biztonsági javításokat, amelyek bezárják a ismert réseket.
+C) Mert a frissítés gyorsabb internetet biztosít.
+D) Mert a régi firmware több energiát fogyaszt.
+Helyes: B
+
+6. (Nehéz) Milyen előnye van a vendég-hálózat létrehozásának?
+A) Gyorsabb internetet biztosít a vendégeknek.
+B) Elkülöníti a fő hálózatot és az eszközeidet a vendégek eszközeitől.
+C) Több eszköz csatlakozhat egyszerre.
+D) Nem kell jelszót adni a vendégeknek.
+Helyes: B
+2. Nyilvános Wi-Fi veszélyei
+
+7. (Könnyű) Miért veszélyes nyilvános Wi-Fi hálózatot használni?
+A) Mert mindig lassú.
+B) Mert a hálózaton lévő támadók lehallgathatják a forgalmadat, és érzékeny adatokat szerezhetnek meg.
+C) Mert mindig fizetős.
+D) Mert nem lehet rá csatlakozni.
+Helyes: B
+
+8. (Könnyű) Mit jelent a „hamis hotspot” támadás?
+A) A támadó ellopja a routeredet.
+B) A támadó olyan hálózatot hoz létre, amelynek neve megtévesztően hasonlít egy hivatalos hálózatéra.
+C) A támadó vírust telepít a telefonodra.
+D) A támadó feltöri a Wi-Fi jelszavadat.
+Helyes: B
+
+9. (Könnyű) Mit érdemes használni nyilvános Wi-Fi-n?
+A) Csak a banki oldalakat megnyitni.
+B) Semmilyen biztonsági intézkedést, mert úgyis mindenki látja.
+C) VPN-t, és csak HTTPS oldalakat megnyitni.
+D) Csak e-mailt olvasni.
+Helyes: C
+
+10. (Nehéz) Mi a man-in-the-middle támadás lényege?
+A) A támadó ellopja a laptopodat.
+B) A támadó a routeredet feltöri otthon.
+C) A támadó a kliens és a szerver közé ékelődve módosíthatja vagy ellophatja az adatokat.
+D) A támadó vírust küld e-mailben.
+Helyes: C
+
+11. (Nehéz) Mit jelent az, hogy nyílt hálózaton a titkosítatlan forgalom könnyen olvasható?
+A) A forgalom automatikusan titkosítva van.
+B) A nem titkosított adatforgalmat a hálózaton lévő bárki elolvashatja.
+C) A forgalmat csak a szolgáltató látja.
+D) A forgalom csak akkor olvasható, ha a támadó fizet érte.
+Helyes: B
+
+12. (Nehéz) Miért nem szabad nyilvános Wi-Fi-n banki vagy hivatalos ügyeket intézni?
+A) Mert lassú a kapcsolat.
+B) Mert az adataid veszélybe kerülhetnek a lehallgatás vagy a man-in-the-middle támadás miatt.
+C) Mert a bankok letiltják az ilyen kapcsolatokat.
+D) Mert a nyilvános Wi-Fi mindig vírusos.
+Helyes: B
+3. Ismeretlen hálózatok és eszközök
+
+13. (Könnyű) Mi a jele annak, hogy idegen eszköz csatlakozott a hálózatodhoz?
+A) A router kikapcsol.
+B) Hirtelen lelassul az internet.
+C) A Wi-Fi jelszó megváltozik.
+D) A router világítani kezd.
+Helyes: B
+
+14. (Könnyű) Mit tegyél, ha gyanús eszközt találsz a hálózaton?
+A) Semmit, majd elmegy.
+B) Kikapcsolod a routert.
+C) Azonnal változtasd meg a Wi-Fi jelszót, és zárd ki az eszközt.
+D) Szólj a szomszédnak.
+Helyes: C
+
+15. (Könnyű) Hol tudod ellenőrizni, milyen eszközök csatlakoztak a hálózathoz?
+A) A router admin felületén.
+B) A router admin felületén.
+C) A telefon beállításaiban.
+D) A böngésző előzményeiben.
+Helyes: B
+
+16. (Nehéz) Mit jelent a MAC-szűrés?
+A) A router csak bizonyos IP-címeket engedélyez.
+B) Csak az általad ismert eszközöket engedélyezed a hálózaton a MAC-címük alapján.
+C) A router csak bizonyos weboldalakat engedélyez.
+D) A Wi-Fi csak bizonyos időpontokban működik.
+Helyes: B
+
+17. (Nehéz) Miért veszélyes, ha idegen eszközök csatlakoznak a hálózatodhoz?
+A) Mert lassítják a netet.
+B) Mert felhasználhatják az internetedet, és rosszindulatú tevékenységet folytathatnak a te nevedben.
+C) Mert tönkreteszik a routert.
+D) Mert ellopják a jelszavaidat.
+Helyes: B
+
+18. (Nehéz) Miért hasonlítja az oldal az otthoni hálózatot a bejárati ajtóhoz?
+A) Mert mindkettőt be kell zárni éjszakára.
+B) Mert csak az léphessen be, akit te beengedsz.
+C) Mert mindkettőt rendszeresen festeni kell.
+D) Mert mindkettőnek van kilincse.
+Helyes: B
+4. Általános védekezés és összefoglalás
+
+19. (Könnyű) Milyen jelszót érdemes használni a Wi-Fi hálózathoz?
+A) Szótáras szavakat.
+B) Könnyen kitalálható kombinációkat.
+C) Erős, egyedi jelszót, amely nem szerepel szótárakban.
+D) A születési dátumodat.
+Helyes: C
+
+20. (Könnyű) Melyik titkosítási módot kell elkerülni?
+A) WPA3-at.
+B) WPA2-t.
+C) WEP-et, mert már nem nyújt megfelelő védelmet.
+D) AES-t.
+Helyes: C
+
+21. (Nehéz) Miért fontos a router firmware frissítése?
+A) Mert új funkciókat ad.
+B) Mert a gyártó biztonsági javításokat ad ki, amelyek bezárják a ismert réseket.
+C) Mert gyorsabb lesz a Wi-Fi.
+D) Mert kevesebb energiát fogyaszt.
+Helyes: B
+
+22. (Nehéz) Mit érdemes tenni, ha nyilvános Wi-Fi-t kell használnod?
+A) Semmit, mert a nyilvános Wi-Fi biztonságos.
+B) Használj VPN-t, és csak HTTPS oldalakat nyiss meg.
+C) Kapcsold ki a tűzfalat.
+D) Használj nyilvános számítógépet.
+Helyes: B
+
+23. (Nehéz) Miért fontos rendszeresen ellenőrizni a csatlakozott eszközöket?
+A) Mert így gyorsabb a net.
+B) Mert ha ismeretlen eszközt találsz, azonnal cselekedhetsz: jelszócsere és kizárás.
+C) Mert a router így frissül.
+D) Mert a szolgáltató ezt kéri.
+Helyes: B
+
+24. (Nehéz) Melyik állítás igaz a nyilvános Wi-Fi hálózatokra?
+A) Mindig titkosítottak.
+B) A támadók könnyedén lehallgathatják a forgalmat.
+C) Csak akkor veszélyesek, ha fizetni kell értük.
+D) Nem lehet rajtuk VPN-t használni.
+Helyes: B
+
+25. (Nehéz) Mi a legfontosabb üzenete az oldalnak az otthoni hálózat védelméről?
+A) A routert évente cserélni kell.
+B) A Wi-Fi jelszót havonta változtatni kell.
+C) Az otthoni hálózatod legyen olyan, mint a bejárati ajtód: csak az léphessen be, akit te beengedsz.
+D) A hálózatot soha nem szabad megosztani.
+Helyes: C

@@ -1,0 +1,179 @@
+. E-mailes adathalászat
+
+1. (Könnyű) Mi jellemzi leggyakrabban az adathalász e-maileket?
+A) Hivatalos logóval ellátott, hibátlan helyesírású üzenetek.
+B) Sürgető hangnem, helyesírási hibák és ismeretlen feladó.
+C) Mindig magyar nyelvű, hivatalos szervezettől érkeznek.
+D) Kizárólag csatolmányt tartalmaznak, linket soha.
+Helyes: B
+
+2. (Könnyű) Mit kérnek leggyakrabban az adathalász e-mailek?
+A) Időjárás-jelentést.
+B) Jelszót, banki adatot vagy személyes információt.
+C) Képet a nyaralásról.
+D) Számlaszámot közüzemi díj befizetéséhez.
+Helyes: B
+
+3. (Nehéz) Miért veszélyes, ha egy adathalász e-mailben sürgetnek, hogy azonnal cselekedj?
+A) Mert így gyorsabb a válaszidő.
+B) Mert a sürgetés megakadályozza, hogy átgondold a levél valódiságát.
+C) Mert a rendszer automatikusan törli a lassú válaszokat.
+D) Mert a sürgetés mindig hivatalos értesítést jelent.
+Helyes: B
+
+4. (Nehéz) Mit tegyél, ha egy e-mailben jelszót kérnek tőled?
+A) Add meg, ha a feladó ismerős.
+B) Soha ne add meg, és jelentsd az üzenetet adathalászatként.
+C) Küldd el a jelszót, de utána változtasd meg.
+D) Válaszolj, hogy előbb ellenőrizd a fiókodat.
+Helyes: B
+
+5. (Nehéz) Mi a helyes eljárás, ha bizonytalan vagy egy e-mail valódiságában?
+A) Kattints a benne lévő linkre, és nézd meg, hová vezet.
+B) Válaszolj a feladónak, és kérdezd meg, ő küldte-e.
+C) Ne kattints a linkre, és közvetlenül a szolgáltatás hivatalos oldalán jelentkezz be.
+D) Továbbítsd a levelet minden ismerősödnek, hátha ők is megkapták.
+Helyes: C
+
+6. (Nehéz) Melyik állítás igaz az adathalász e-mailek feladóira?
+A) Mindig hivatalos domainről érkeznek.
+B) Gyakran ismeretlen vagy hamisított címről érkeznek.
+C) A feladó mindig a bankod valódi e-mail címe.
+D) A feladó címe mindig tartalmazza a „hivatalos” szót.
+Helyes: B
+2. Link manipuláció
+
+7. (Könnyű) Mi a link manipuláció lényege?
+A) A link mindig hosszú és bonyolult.
+B) A link első pillantásra valódinak tűnik, de hamis oldalra vezet.
+C) A link mindig rövidített URL.
+D) A link soha nem kattintható.
+Helyes: B
+
+8. (Könnyű) Melyik gyanús jel utalhat link manipulációra?
+A) A link a hivatalos weboldal pontos címére mutat.
+B) A webcímben apró eltérés van, például extra betű vagy szám.
+C) A link mindig HTTPS-sel kezdődik.
+D) A link szövege megegyezik a céloldal címével.
+Helyes: B
+
+9. (Nehéz) Mit jelent az elrejtett átirányítás?
+A) A link nem működik.
+B) A megjelenített szöveg valódinak tűnik, de a link más weboldalra vezet.
+C) A link automatikusan letölt egy fájlt.
+D) A link csak mobilon nyílik meg.
+Helyes: B
+
+10. (Nehéz) Miért veszélyesek a rövidített URL-ek adathalászat szempontjából?
+A) Mert mindig vírust tartalmaznak.
+B) Mert elrejtik a valódi célcímet, így nehezebb ellenőrizni, hová vezetnek.
+C) Mert nem lehet rájuk kattintani.
+D) Mert csak e-mailben működnek.
+Helyes: B
+
+11. (Nehéz) Mit tegyél, ha egy link gyanúsnak tűnik?
+A) Kattints rá, és nézd meg, mi történik.
+B) Ne nyisd meg, hanem gépeld be kézzel a hivatalos webcímet a böngészőbe.
+C) Másold ki a linket, és illeszd be egy szövegszerkesztőbe.
+D) Küldd tovább valakinek, hogy ő próbálja ki.
+Helyes: B
+
+12. (Nehéz) Melyik állítás igaz a link manipulációra?
+A) Csak e-mailben fordul elő.
+B) Előfordulhat e-mailben és SMS-ben is.
+C) Kizárólag bankok ellen irányul.
+D) Mindig felismerhető a link hosszáról.
+Helyes: B
+3. SMS adathalászat (smishing)
+
+13. (Könnyű) Mit jelent a „smishing” kifejezés?
+A) E-mailes adathalászat.
+B) SMS-ben érkező adathalász támadás.
+C) Telefonos adathalászat.
+D) Közösségi médiás adathalászat.
+Helyes: B
+
+14. (Könnyű) Mire próbálják rávenni az áldozatot a tipikus SMS-csalások?
+A) Hogy törölje az üzenetet.
+B) Hogy kattintson egy linkre, hívjon fel egy számot, vagy adja meg az adatait.
+C) Hogy küldjön válasz SMS-t.
+D) Hogy telepítsen egy alkalmazást.
+Helyes: B
+
+15. (Nehéz) Miért különösen veszélyesek az SMS-ben küldött linkek?
+A) Mert mindig hosszúak.
+B) Mert gyakran mobilra optimalizált hamis oldalakra vezetnek, ahol könnyű eltéveszteni a valódi és a hamis felületet.
+C) Mert nem lehet őket megnyitni.
+D) Mert mindig letöltést indítanak.
+Helyes: B
+
+16. (Nehéz) Melyik tipikus SMS-csalás jellemző?
+A) Hivatalos számlaértesítő pontos összeggel.
+B) Hamis csomagértesítés vagy banki figyelmeztetés sürgető hangnemben.
+C) Időjárás-előrejelzés.
+D) Névnapköszöntő.
+Helyes: B
+
+17. (Nehéz) Mit tegyél, ha egy SMS-ben lévő link gyanús?
+A) Kattints rá, és nézd meg a weboldalt.
+B) Ne nyisd meg, és inkább a hivatalos weboldalt keresd fel közvetlenül.
+C) Válaszolj az SMS-re, hogy igaz-e az üzenet.
+D) Továbbítsd a linket másoknak.
+Helyes: B
+
+18. (Nehéz) Miért ne bízz meg egy SMS-ben érkező számban vagy linkben?
+A) Mert a számok mindig hamisak.
+B) Mert a támadók könnyen hamisíthatják a feladó számát és a linket.
+C) Mert az SMS-eket nem lehet nyomon követni.
+D) Mert a linkek mindig vírusosak.
+Helyes: B
+4. Általános védekezés
+
+19. (Könnyű) Mit tegyél, ha bizonytalan vagy egy üzenet valódiságában?
+A) Kattints a linkre, és nézd meg a weboldalt.
+B) Ne kattints a linkre, és ne add meg az adataidat; inkább a hivatalos oldalon jelentkezz be.
+C) Válaszolj az üzenetre, és kérj megerősítést.
+D) Töröld az üzenetet, és ne foglalkozz vele.
+Helyes: B
+
+20. (Könnyű) Mit jelent a kétlépcsős azonosítás, és miért hasznos?
+A) Két jelszó használata.
+B) Egy plusz biztonsági lépés bejelentkezéskor, amely akkor is véd, ha a jelszó kiszivárog.
+C) Két különböző böngésző használata.
+D) A jelszó kétszeri beírása.
+Helyes: B
+
+21. (Nehéz) Miért fontos, hogy soha ne add meg a jelszavadat e-mailben vagy SMS-ben?
+A) Mert a jelszó túl hosszú.
+B) Mert a hivatalos szolgáltatók soha nem kérnek jelszót ilyen csatornákon.
+C) Mert a jelszó csak személyesen adható meg.
+D) Mert az e-mail és SMS nem biztonságos.
+Helyes: B
+
+22. (Nehéz) Hogyan ellenőrizheted, hogy egy webcím valóban hivatalos-e?
+A) A link szövegére kattintva.
+B) A böngésző címsorában ellenőrizve a pontos domainnevet, és összevetve a hivatalos címmel.
+C) A weboldal kinézetéből.
+D) A weboldalon található logó alapján.
+Helyes: B
+
+23. (Nehéz) Mit tegyél, ha egy üzenetben személyes adatokat kérnek?
+A) Add meg, ha a feladó ismerősnek tűnik.
+B) Ne add meg, és ellenőrizd a kérést egy másik, hivatalos csatornán.
+C) Add meg, de csak részben.
+D) Kérdezd meg a feladót, miért kéri.
+Helyes: B
+
+24. (Nehéz) Miért veszélyes, ha egy üzenetben azonnali cselekvésre szólítanak fel?
+A) Mert így gyorsabb a válasz.
+B) Mert a sürgetés megakadályozza a tudatos ellenőrzést.
+C) Mert a rendszer automatikusan törli a késlekedő válaszokat.
+D) Mert a sürgetés mindig hivatalos.
+Helyes: B
+
+25. (Nehéz) Melyik a legbiztonságosabb módszer, ha egy szolgáltatás hivatalos oldalára szeretnél bejelentkezni?
+A) A legutóbbi e-mailben kapott linkre kattintva.
+B) Az SMS-ben kapott linkre kattintva.
+C) A böngésző címsorába kézzel beírva a hivatalos webcímet.
+D) Egy keresőben rákeresve a szolgáltatás nevére, és az első találatra kattintva.
+Helyes: C

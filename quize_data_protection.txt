@@ -1,0 +1,180 @@
+1. Adatvédelem alapjai
+
+1. (Könnyű) Mit jelent az adatvédelem az oldal szerint?
+A) Az internet teljes elrejtését.
+B) Azt, hogy te döntsd el, ki, mit, miért és meddig tudhat rólad.
+C) Az összes közösségi profil törlését.
+D) A böngésző előzményeinek törlését.
+Helyes: B
+
+2. (Könnyű) Miért gyűjtenek a legtöbb szolgáltatás alapértelmezésben sok adatot rólad?
+A) Mert véletlenül.
+B) Mert az üzleti modelljük az adatalapú hirdetésre épül.
+C) Mert a felhasználók kérik.
+D) Mert így gyorsabb a szolgáltatás.
+Helyes: B
+
+3. (Nehéz) Milyen következménye lehet annak, ha egy egyszerű játék kéri a névjegyzékedet?
+A) Semmilyen, mert a játékok nem gyűjtenek adatot.
+B) Komoly figyelmeztető jel, mert egy játéknak nincs szüksége a névjegyzékre.
+C) Ez normális, minden app kéri.
+D) Ez csak akkor gond, ha fizetős a játék.
+Helyes: B
+
+4. (Nehéz) Miért nem arról szól az adatvédelem, hogy „elrejtőzz az internet elől”?
+A) Mert az interneten nem lehet elrejtőzni.
+B) Mert a cél a tudatos döntés, nem a teljes láthatatlanság.
+C) Mert a szolgáltatások kötelezővé teszik az adatok megadását.
+D) Mert a jogszabályok tiltják az elrejtőzést.
+Helyes: B
+
+5. (Nehéz) Miért fontos, hogy rendszeresen nézd át az appok engedélyeit?
+A) Mert különben lejárnak.
+B) Mert az appok hozzáférhetnek a kamerához, mikrofonhoz, helyadatokhoz és névjegyzékhez.
+C) Mert a régi engedélyek lassítják a telefont.
+D) Mert az engedélyek automatikusan törlődnek.
+Helyes: B
+2. Adatgyűjtés és követés
+
+6. (Könnyű) Milyen adatokat hagyunk magunk után internetezés közben?
+A) Csak a jelszavainkat.
+B) Kereséseket, kattintásokat, helymeghatározást, e-mail címet, telefonszámot, ismerősök listáját.
+C) Semmilyen adatot, ha privát módot használunk.
+D) Csak a nevünket.
+Helyes: B
+
+7. (Könnyű) Miért veszélyes, ha mindenhol ugyanazt az e-mail címet használod?
+A) Mert lassabb a bejelentkezés.
+B) Mert egy adatszivárgás esetén könnyen összekapcsolhatók a fiókjaid.
+C) Mert a szolgáltatók nem szeretik.
+D) Mert így több spamet kapsz.
+Helyes: B
+
+8. (Nehéz) Mit tudnak kezdeni a támadók és adatgyűjtő cégek a különböző online nyomokból?
+A) Semmit, ezek véletlenszerű adatok.
+B) Pontos képet tudnak alkotni rólad.
+C) Csak a kereséseidet látják.
+D) Csak a helyadatokat tudják követni.
+Helyes: B
+
+9. (Nehéz) Miért jelentenek kockázatot a nyilvános Wi-Fi hálózatokon végzett bejelentkezések?
+A) Mert lassabb az internet.
+B) Mert a forgalom lehallgatható, és érzékeny adatok szivároghatnak ki.
+C) Mert a Wi-Fi mindig vírusos.
+D) Mert nem lehet titkosítani.
+Helyes: B
+
+10. (Nehéz) Hogyan segíthetnek az alias e-mail címek az adatvédelemben?
+A) Több e-mail fiókot kell kezelni.
+B) Kiderül, melyik szolgáltatás adta el az adataidat.
+C) Nem kapsz spamet.
+D) Gyorsabb a bejelentkezés.
+Helyes: B
+3. Beállítások és eszközök
+
+11. (Könnyű) Mit érdemes tenni a közösségi média profiljaiddal?
+A) Nyilvánosan hagyni, hogy mindenki lássa.
+B) „Csak ismerősöknek” állítani, és letiltani a névjegyzék-feltöltést.
+C) Törölni az összes posztot.
+D) Nem használni a közösségi médiát.
+Helyes: B
+
+12. (Könnyű) Milyen böngészőbeállítások segítik az adatvédelmet?
+A) A sütik engedélyezése minden oldalon.
+B) Privát mód, harmadik féltől származó sütik tiltása, követésvédelem.
+C) A böngésző gyorsítótárának törlése.
+D) A legnépszerűbb böngésző használata.
+Helyes: B
+
+13. (Nehéz) Miért érdemes adatvédelem-központú keresőt használni?
+A) Mert gyorsabb.
+B) Mert nem épít rólad profilt a kereséseid alapján.
+C) Mert több találatot ad.
+D) Mert ingyenes.
+Helyes: B
+
+14. (Nehéz) Mit jelent a „privát mód” a böngészőben?
+A) Teljesen elrejti a tevékenységedet az internetszolgáltatód elől.
+B) Nem menti a helyi előzményeket és sütiket, de a hálózati szintű követést nem akadályozza.
+C) Letiltja az összes hirdetést.
+D) Titkosítja a teljes internetforgalmat.
+Helyes: B
+
+15. (Nehéz) Milyen engedélyeket érdemes ellenőrizni a telefonon?
+A) Csak a kamera engedélyét.
+B) Kamera, mikrofon, hely, névjegyzék.
+C) Csak a helymeghatározást.
+D) Csak a névjegyzéket.
+Helyes: B
+4. Jogok és jogszabályok (GDPR)
+
+16. (Könnyű) Melyik jogszabály biztosít széles jogokat a személyes adataiddal kapcsolatban az EU-ban?
+A) A szerzői jogi törvény.
+B) A GDPR.
+C) A PSD2.
+D) A digitális szolgáltatásokról szóló törvény.
+Helyes: B
+
+17. (Könnyű) Mit jelent a hozzáférési jog?
+A) Azt, hogy bármikor beléphetsz bármelyik weboldalra.
+B) Azt, hogy megtudhatod, mit tárolnak rólad.
+C) Azt, hogy hozzáférhetsz mások adataihoz.
+D) Azt, hogy ingyen használhatod a szolgáltatásokat.
+Helyes: B
+
+18. (Nehéz) Mit jelent a törlési jog, más néven „elfeledtetéshez való jog”?
+A) Azt, hogy törölheted a böngésző előzményeit.
+B) Azt, hogy kérheted a rólad tárolt adatok törlését.
+C) Azt, hogy törölheted a fiókodat minden oldalról.
+D) Azt, hogy törölheted mások posztjait.
+Helyes: B
+
+19. (Nehéz) Mit jelent az adathordozhatóság joga?
+A) Azt, hogy átviheted a jelszavaidat egy másik jelszókezelőbe.
+B) Azt, hogy az adataidat géppel olvasható formátumban megkaphatod, és máshová viheted.
+C) Azt, hogy az adataidat más szolgáltatónál is használhatod.
+D) Azt, hogy az adataidat eladhatod.
+Helyes: B
+
+20. (Nehéz) Mit jelent a tiltakozási jog?
+A) Azt, hogy tiltakozhatsz a hirdetések ellen.
+B) Azt, hogy kérheted a profilalkotás mellőzését.
+C) Azt, hogy tiltakozhatsz a szolgáltatás díjai ellen.
+D) Azt, hogy tiltakozhatsz a felhasználási feltételek ellen.
+Helyes: B
+5. Gyakorlati védekezés és teendők
+
+21. (Könnyű) Mit tegyél, ha egy szolgáltatás nem válaszol a törlési kérelmedre 30 napon belül?
+A) Semmit, várnod kell.
+B) Fordulhatsz a Nemzeti Adatvédelmi és Információszabadság Hatósághoz (NAIH).
+C) Újra kell küldened a kérelmet.
+D) Törölnöd kell a fiókodat.
+Helyes: B
+
+22. (Könnyű) Hol tudod ellenőrizni, hogy szerepel-e az e-mail címed adatszivárgásban?
+A) A Google-ben.
+B) A Have I Been Pwned oldalon.
+C) A Facebookon.
+D) A NAIH weboldalán.
+Helyes: B
+
+23. (Nehéz) Mit érdemes rendszeresen ellenőrizni az adatvédelem érdekében?
+A) Csak a jelszavaidat.
+B) A közösségi profilok láthatóságát, a böngésző mentett adatait, és rákeresni a nevedre.
+C) Csak a banki egyenlegedet.
+D) Csak az e-mail fiókodat.
+Helyes: B
+
+24. (Nehéz) Miért fontos a régi, nem használt fiókok törlése?
+A) Mert foglalják a helyet.
+B) Mert minden egyes törölt kapcsolat csökkenti a kockázatot, hogy visszaélnek az adataiddal.
+C) Mert a szolgáltatók így gyorsabbak lesznek.
+D) Mert a régi fiókok automatikusan törlődnek.
+Helyes: B
+
+25. (Nehéz) Mit jelent a „tudatos megosztás” az adatvédelemben?
+A) Mindent megosztani, hogy átlátható legyél.
+B) Csak a szükséges adatokat megosztani, és átgondolni, kinek és miért.
+C) Semmit sem megosztani.
+D) Csak a barátokkal megosztani mindent.
+Helyes: B
