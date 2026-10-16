@@ -127,5 +127,20 @@ if (slider_input){
   slider_input.addEventListener('click', quizeselfrating)
 }
 function quizeselfrating(){
-  console.log(slider_input)
+  switch (slider_input.value) {
+    case 0:
+      document.getElementById("tudas").textContent="Nem tudom"
+      break;
+    case 1:
+      document.getElementById("tudas").textContent="Keveset tudok"
+      break;
+    case 2:
+      document.getElementById("tudas").textContent="Fejlődni szeretnék még"
+      break;
+    case 3:
+      document.getElementById("tudas").textContent="Mindent tudok"
+      break;
+  
+  }
+  console.log(slider_input.value)
 }
