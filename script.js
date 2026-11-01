@@ -128,16 +128,16 @@ if (slider_input){
 }
 function quizeselfrating(){
   switch (slider_input.value) {
-    case 0:
+    case "0":
       document.getElementById("tudas").textContent="Nem tudom"
       break;
-    case 1:
+    case "1":
       document.getElementById("tudas").textContent="Keveset tudok"
       break;
-    case 2:
+    case "2":
       document.getElementById("tudas").textContent="Fejlődni szeretnék még"
       break;
-    case 3:
+    case "3":
       document.getElementById("tudas").textContent="Mindent tudok"
       break;
   
