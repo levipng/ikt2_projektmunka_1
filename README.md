@@ -1,6 +1,6 @@
 # Online Biztonság – Projektmunka
 
-Ez a repository egy statikus weboldal forráskódját tartalmazza, amely az **online biztonság** témakörében nyújt hasznos információkat és gyakorlati tanácsokat. A projekt célja, hogy könnyen áttekinthető formában hívja fel a figyelmet a digitális világ leggyakoribb veszélyeire és azok megelőzésére.
+Ez a repository egy weboldal forráskódját tartalmazza, amely az **online biztonság** témakörében nyújt hasznos információkat és gyakorlati tanácsokat. A projekt célja, hogy könnyen áttekinthető formában hívja fel a figyelmet a digitális világ leggyakoribb veszélyeire és azok megelőzésére.
 
 ## 📂 Témakörök
 
